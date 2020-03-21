@@ -1,0 +1,121 @@
+:root {
+  --black: #131313;
+  --white: #ffffff;
+  --block-margin: 2rem;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Lora', serif;
+  line-height: 1.5;
+  font-size: 1.25rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+
+/* Code styles */
+
+code {
+  font-family: monospace;
+}
+
+pre,
+code {
+  background-color: #282923;
+  color: var(--white);
+}
+
+pre {
+  padding: .25rem 1rem 1rem;
+  border-radius: .25rem;
+  margin: var(--block-margin) 0;
+}
+
+.css-name-selector,
+.css-unit {
+  color: #FC1B70;
+}
+
+.css-class-selector {
+  color: #A4E400;
+}
+
+.css-property,
+.css-value {
+  color: #61D8F1
+}
+
+.css-property {
+  font-style: italic;
+}
+
+.css-value-number {
+  color: #AD7CFF
+}
+
+p code {
+  padding: .125em .375em;
+  border-radius: .125rem;
+}
+
+
+.inline-code {
+  color: inherit;
+  background-color: #efefef;
+}
+
+/* General */
+
+.main {
+  max-width: 36rem;
+  margin: 3rem auto;
+}
+
+p {
+  margin: var(--block-margin) 0;
+}
+
+.example {
+  padding: 1.5rem;
+  background-color: #efefef;
+  margin: var(--block-margin) 0;
+}
+
+.example p {
+  margin: 0;
+}
+
+.first-letter-cap::first-letter {
+  float: left;
+
+  font-size: 3em;
+  margin: 0.125em .1875em 0 0.1em;
+}
+
+.small-caps {
+  font-style: normal;
+  font-variant: small-caps;
+  letter-spacing: 0.05em;
+}
