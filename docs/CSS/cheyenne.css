@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+::selection {
+  color: white;
+  background: black;
+}
+
+::-webkit-selection, ::-moz-selection {
+  color: white;
+  background: #E51659;
+}
+
+.img {
+  background-image: url('../Links/cheyenne/kannst_du_loeschen.png');
+  height: 250px;
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center;
+}
+
+h1 {
+  font-family: 'Inter', sans-serif;
+  font-size: 4rem;
+  font-weight: 400;
+}
+
+@media (min-width: 992px){
+  h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 6rem;
+    font-weight: 400;
+  }
+}
+
+.container-fluid {
+  border-bottom: 2px solid #f7f7f7;
+  padding-bottom: 150px;
+  padding-top: 150px;
+}
+
+.intro {
+  /*padding-top: 150px;*/
+}
+
+.introText {
+  margin-top: 30px;
+}
+
+.grey {
+  background-color: #fbfbfb;
+}
