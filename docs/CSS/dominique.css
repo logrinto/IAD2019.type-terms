@@ -1,0 +1,35 @@
+/* Fixed/sticky position
+
+h1 {
+  margin-top: 4rem;
+  font-size: 3rem;
+  line-height: 1.2em;
+  font-family: 'Amatic SC', cursive;
+  color: #25262a;
+}
+
+h2 {
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+  font-family: 'Amatic SC', cursive;
+  color: #794a64;
+}
+
+h3 {
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+  color: #25262a;
+}
+
+p {
+  margin-top: 0rem;
+  margin-bottom: 1rem;
+}
+*/
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
