@@ -1,0 +1,47 @@
+html {
+    color:rgb(198, 254, 149);
+  }
+
+body {
+background-color: rgb(26, 26, 26);
+margin-left: 20px;
+margin-top: 100px;
+margin-right: auto;
+}
+
+h1 {
+font-family: 'Bree Serif', serif;
+font-size: 60px;
+line-height: 0.2em;
+letter-spacing: 0.02em;
+}
+
+h2 {
+font-family: 'Bree Serif', serif;
+font-size: 30px;
+line-height: 0.2em;
+letter-spacing: 0.02em;
+}
+
+p {
+color: white;
+font-family: 'Open Sans', sans-serif;
+font-size: 17px;
+line-height: 1.5em;
+letter-spacing: 0.05em;
+}
+
+h3 {
+font-family: 'Bree Serif', serif;
+font-size: 15px;
+line-height: 0em;
+letter-spacing: 0.05em;
+}
+
+.spalte {
+  max-width: 40rem;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 1.5rem;  
+}
