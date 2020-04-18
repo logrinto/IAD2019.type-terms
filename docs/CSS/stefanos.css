@@ -1,12 +1,112 @@
 body {
-
+  font-family: 'Montserrat', sans-serif;
+  /* background-color: #e8aa41; #f0ca68; */
+  background-image: linear-gradient(180deg,#691510,#1d0a04);
+  /* background-image: linear-gradient(110deg,#21ae83,#66cc99,#ff6633,#c6110c); */
+  margin-left: 30em;
+  margin-right: 30em;
+  margin-bottom: 10em;
+  margin-bottom: 10em;
 }
+
+html {
+  font-size: 16px;
+  line-height: 22px;
+  color: #f4be51;
+}
+
 h1 {
-
+  font-family: 'Montserrat Subrayada', sans-serif;
+  font-size: 90px;
+  line-height: 100px;
+  color: white;
 }
+
 h2 {
-
+  font-family: 'Montserrat Subrayada', sans-serif;
+  font-size: 30px;
+  line-height: 60px;
+  color: white;
 }
+
 p {
-
 }
+
+@media screen and (max-width: 1024px) {
+  body {
+    margin: 10px;
+    }
+    h1 {
+      font-family: 'Montserrat Subrayada', sans-serif;
+      font-size: 60px;
+      line-height: 80px;
+    }
+
+    h2 {
+      font-family: 'Montserrat Subrayada', sans-serif;
+      font-size: 25px;
+      line-height: 50px;
+    }
+}
+
+.kreis {
+ width: 200px;
+ height: 200px;
+ float: right;
+ shape-outside: circle(50%);
+}
+
+.blocksatz {
+  text-align: justify;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.flattersatz {
+  text-align: left;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+/* ---- Scroll bar ---- */
+
+::-webkit-scrollbar{
+  width: 15px;
+  height: 0px;
+}
+::-webkit-scrollbar-track{
+  border: 10px solid rgb(53, 53, 53);
+  box-shadow: inset 0 0 2.5px 2px rgb(63, 63, 63)
+}
+::-webkit-scrollbar-thumb{
+  background: linear-gradient(20deg,#f4be51,#691510,#1d0a04);
+  border-radius: 5px;
+}
+
+/* ---- Ende Scroll bar ---- */
+
+
+
+/* ---- Links ---- */
+
+a:link, a:visited {
+  text-decoration: none;
+  background-image: linear-gradient(90deg,#fff,#f4be51,#841c16);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer; /* Add a mouse pointer on hover */
+}
+
+a:hover {
+  background-image: linear-gradient(270deg,#fff,#f4be51,#841c16);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+a:link:active, a:visited:active {
+  background-image: linear-gradient(90deg,#fff,#f4be51,#841c16);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* ---- Ende Links ---- */
