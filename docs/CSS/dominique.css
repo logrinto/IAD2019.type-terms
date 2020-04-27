@@ -1,13 +1,45 @@
-*{
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+
+
+@media only screen and (min-width: 600px) { /* oder rem/em */
+  html {
+    font-size: 16px;
+  }
 }
 
 body{
   background: #FBFBFB;
   font-family: 'Raleway', sans-serif;
 }
+
+h1{
+  margin-top: 4rem;
+  font-size: 3rem;
+  line-height: 1.2em;
+  font-weight: bold;
+  color: black;
+}
+
+h2{
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+  font-weight: bold;
+  color: black;
+}
+
+p{
+  font-size: 1rem;
+  color: black;
+  font-weight: normal;
+}
+
+.content {
+  min-width: 10rem;
+  margin: 0 auto;
+}
+
+
+/*grid*/
 
 .wrapper{
   width: 100%;
@@ -21,7 +53,7 @@ body{
 .item{
   background: #58d5f6;
   color: white;
-  padding: 10px;
+  padding: 1rem;
   height: auto;
 }
 
