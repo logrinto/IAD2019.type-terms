@@ -1,43 +1,106 @@
-/* Fixed/sticky position
-
-h1 {
-  margin-top: 4rem;
-  font-size: 3rem;
-  line-height: 1.2em;
-  font-family: 'Amatic SC', cursive;
-  color: #25262a;
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-h2 {
-  margin-top: 2rem;
-  margin-bottom: 0.5rem;
-  font-size: 2rem;
-  font-family: 'Amatic SC', cursive;
-  color: #794a64;
-}
-
-h3 {
-  margin-top: 0rem;
-  margin-bottom: 0rem;
-  font-size: 1rem;
-  font-family: 'Roboto', sans-serif;
-  color: #25262a;
-}
-
-p {
-  margin-top: 0rem;
-  margin-bottom: 1rem;
-}
-*/
-
-body {
+body{
+  background: #FBFBFB;
   font-family: 'Raleway', sans-serif;
 }
 
-.parent {
-display: grid;
-grid-template-columns: repeat(9, 1fr);
-grid-template-rows: repeat(5, 1fr);
-grid-column-gap: 12px;
-grid-row-gap: 12px;
-} 
+.wrapper{
+  width: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 1rem;
+}
+
+.item{
+  background: #58d5f6;
+  color: white;
+  padding: 10px;
+}
+
+.item:nth-child(even){
+  background: #236fc8;
+}
+
+.item1{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  height: 100px;
+}
+
+.item2{
+  grid-column-start: 2;
+  grid-column-end: 10;
+  height: 100px;
+}
+
+.item3{
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.item4{
+  grid-column-start: 4;
+  grid-column-end: 8;
+}
+
+.item5{
+  grid-column-start: 8;
+  grid-column-end: 10;
+}
+
+.item6{
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.item7{
+  grid-column-start: 4;
+  grid-column-end: 8;
+}
+
+.item8{
+  grid-column-start: 8;
+  grid-column-end: 10;
+}
+
+.item9{
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.item10{
+  grid-column-start: 4;
+  grid-column-end: 8;
+}
+
+.item11{
+  grid-column-start: 8;
+  grid-column-end: 10;
+}
+
+.item12{
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.item13{
+  grid-column-start: 3;
+  grid-column-end: 8;
+}
+
+.item14{
+  grid-column-start: 8;
+  grid-column-end: 10;
+}
+
+.item15{
+  grid-column-start: 1;
+  grid-column-end: 10;
+}
