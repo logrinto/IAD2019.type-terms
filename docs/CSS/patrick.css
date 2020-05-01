@@ -13,7 +13,6 @@
   }
 
 
-
   .spalte {
     max-width: 50rem;
     /* background-color: yellow; */
@@ -38,7 +37,7 @@
   font-family: 'Ubuntu', sans-serif;
   font-weight: 700;
   color: ##000000;
-
+  /* text-align: center; */
   /* margin-top: 3em; */
   /* position: relative; */
 }
@@ -48,9 +47,9 @@
   font-family: 'Lora', serif;
   font-weight:400;
   color: #474545;
-  margin-bottom: 3rem;
   line-height: 1.8rem;
   letter-spacing: 0.03rem;
+  margin-bottom: 3rem;
 }
 
 .subtitle {
