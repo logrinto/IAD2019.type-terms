@@ -76,15 +76,15 @@ ul {
   padding-right: 4em;
   padding-left: 4em;
   padding-bottom: 2em;
-  border: 1px solid white;
+  /* border: 1px solid white; */
 }
 
 .m1 {
   flex: 1 0 100%;
-  background: #5248D3;
+  /* background: #5248D3; */
   padding-top: 1em;
-  padding-right: 1em;
-  padding-left: 1em;
+  padding-right: 12em;
+  padding-left: 12em;
   padding-bottom: 1em;
   text-align: center;
 }
@@ -93,7 +93,6 @@ ul {
 }
 .m3 {
   flex: 3;
-  background: rgb(51, 51, 51);
   padding: 1em;
   text-align: center;
 }
@@ -121,6 +120,8 @@ ul {
 }
 
 @media (max-width: 1000px) {
-  .m2 { order: 2; flex: 4; }
-  .m4 { order: 2; flex: 3; }
+  .m2 { order: 1; flex: 4; }
+  .m4 { order: 3; flex: 3; }
+  .m3 { order: 2; flex: 4; }
+  .m5 { order: 4; flex: 4; }
 }
