@@ -1,8 +1,94 @@
 html {
+  font-family: 'Sen', sans-serif;
+  font-size: 18px;
   }
 
-body {
-margin-left: 400px;
-margin-top: 250px;
-margin-right: 700px;
+.content {
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-top: 10vmin;
+  /* background-color: lightgrey; */
 }
+
+
+.text {
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-top: 10vmin;
+  /* background-color: lightgrey; */
+}
+
+.abstand {
+  height: 4rem;
+}
+
+h1 {
+  font-size: 7vw;
+  font-weight: 800;
+  letter-spacing: 0.2em;
+  line-height: 1em;
+  text-transform: uppercase;
+  hyphens: auto;
+  text-decoration: underline 0.08em solid;
+  margin-bottom: 0.2em;
+  margin-left: 1.45em;
+}
+
+h2 {
+  font-size: 3.02vw;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  line-height: 1em;
+  text-transform: uppercase;
+  hyphens: auto;
+  margin-bottom: 5em;
+  text-decoration: underline 0.1em solid;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  letter-spacing: 0.15em;
+  line-height: 1.2em;
+  text-transform: uppercase;
+  hyphens: auto;
+  margin-bottom: 1em;
+}
+
+h4 {
+  font-size: 1.2rem;
+  font-weight: 800;
+  letter-spacing: 0.15em;
+  line-height: 1.2em;
+  text-transform: uppercase;
+  hyphens: auto;
+  margin-bottom: 1em;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  line-height: 1.7em;
+}
+
+li {
+  line-height: 1.7em;
+  margin-bottom: 0.9em;
+  list-style: "– ";
+}
+
+a {
+  text-decoration: none;
+  color: #24769a;
+}
+
+.bild_breit {
+  width: 100%;
+}
+
+/* #c650ff
+#ffe550
+#50e0ff
+#89ff50
+#ff6f50 */
