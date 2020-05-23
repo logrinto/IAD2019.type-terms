@@ -108,11 +108,22 @@ p {
   margin: 0;
 }
 
-.first-letter-cap::first-letter {
+@keyframes first-letter-animation {
+  to {
+    font-size: 3em;
+    line-height: 1;
+    margin-right: .25em;
+    font-variation-settings: "wght" 700;
+  }
+}
+
+.first-letter-cap .first-letter {
   float: left;
 
-  font-size: 3em;
-  margin: 0.125em .1875em 0 0.1em;
+  font-size: 1.001em;
+  font-variation-settings: "wght" 400;
+
+  animation: first-letter-animation 2.75s ease-in-out infinite alternate;
 }
 
 .small-caps {
