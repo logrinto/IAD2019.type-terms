@@ -29,19 +29,16 @@
       Mit CSS können die beiden Auszeichnungsarten gesteuert werden. Mit Hilfe des <code class="inline-code">text-transform</code> Property können Versalien in einem beliebigen Element forciert werden.
     </p>
 
-<pre><code>
-<span class="css-name-selector">h1</span> {
-  <span class="css-property">text-transform</span>: <span class="css-value-number">uppercase</span>;
+<pre><code><span class="css-name-selector">h1</span> {
+  <span class="css-property">text-transform</span>: <span class="css-value">uppercase</span>;
 }</code></pre>
 
     <p>In Kombination mit dem Pseudo Element <code class="inline-code">::first-letter</code> kann eine Initiale gestaltet werden werden.</p>
 
-<pre><code>
-<span class="css-name-selector">p</span><span class="css-class-selector">::first-letter</span> {
+<pre><code><span class="css-name-selector">p</span><span class="css-class-selector">::first-letter</span> {
   <span class="css-property">text-transform</span>: <span class="css-value">uppercase</span>;
   <span class="css-property">font-size</span>: <span class="css-value-number">2</span><span class="css-unit">em</span>;
 }</code></pre>
-    
     <div class="example">
       <p class="first-letter-cap">Almost before we knew it, we had left the ground. Almost before we knew it, we had left the ground. Almost before we knew it, we had left the ground. Almost before we knew it, we had left the ground. Almost before we knew it, we had left the ground. Almost before we knew it, we had left the ground.</p>
     </div>
@@ -50,10 +47,9 @@
       Um einen Text mit Kapitälchen darzustellen, kann das Property <code class="inline-code">font-variant</code> verwendet werden. Mit dem Wert <code class="inline-code">small-caps</code> wird der jeweils erste Buchstaben eines Wortes ignoriert, sofern dieser eine Versalbuchstaben ist. Mit <code class="inline-code">all-small-caps</code> wird auch der erste Buchstabe eines Wortes immer berücksichtigt.
     </p>
 
-<pre><code>
-<span class="css-name-selector">p</span> {
-  <span class="css-property">font-variant-caps</span>: <span class="css-value-number">small-caps</span>;
-  <span class="css-property">font-variant-caps</span>: <span class="css-value-number">all-small-caps</span>;
+<pre><code><span class="css-name-selector">p</span> {
+  <span class="css-property">font-variant-caps</span>: <span class="css-value">small-caps</span>;
+  <span class="css-property">font-variant-caps</span>: <span class="css-value">all-small-caps</span>;
 }</code></pre>
 
     <div class="example">
