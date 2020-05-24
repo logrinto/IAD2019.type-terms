@@ -133,7 +133,7 @@
       grid-column: 4 / 10;
       grid-row: 14 / 16;
       text-align: center;
-      padding-top: 0.8em;
+      padding-top: 1em;
     }
 
     .d {
@@ -228,7 +228,7 @@
   .textbox {
     grid-column: 2 / 12;
     grid-row: 12 / 13;
-    padding-top: 0.2em;
+    padding-top: 0.4em;
   }
   .d {
     grid-row: 16 / 18;
@@ -259,5 +259,4 @@
     grid-column: 2 / 12;
     grid-row: 16 / 18;
   }
- 
 }
