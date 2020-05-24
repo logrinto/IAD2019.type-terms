@@ -145,6 +145,22 @@ p {
   margin: 0;
 }
 
+.example--animation {
+  position: relative;
+  max-height: 8em;
+  overflow: hidden;
+}
+
+.example--animation::after {
+  content: "";
+  position: absolute;
+  height: 3.5em;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: linear-gradient(to bottom, transparent, #efefef);
+}
+
 @keyframes first-letter-animation {
   to {
     font-size: 3.2em;
