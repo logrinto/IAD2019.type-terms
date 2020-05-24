@@ -3,6 +3,18 @@
   --white: #ffffff;
   --block-margin: 2rem;
   --max-width: 42rem;
+
+  /* Diagonal values */
+  --magic-number: 0.03496; /* tan(11°)/2 */
+  --content-width: 100vw;
+  --skew-degree: -4deg;
+  --skew-padding: calc(var(--content-width) * var(--magic-number));
+}
+
+@media screen and (min-width: 42rem) {
+  :root {
+    --content-width: 42rem;
+  }
 }
 
 html {
@@ -23,10 +35,11 @@ h3,
 h4,
 h5,
 h6 {
-  line-height: 1.1;
+  line-height: 1.2;
   letter-spacing: 0.03em;
   margin-bottom: 1rem;
   font-weight: bold;
+  font-variant: small-caps;
 }
 
 h1 {
@@ -38,39 +51,40 @@ h2 {
   margin: calc(var(--block-margin) * 1.5) 0 var(--block-margin);
 }
 
-/* Header */
+/* Diagonal styles */
 
-.header {
+.diagonal-wrapper {
   position: relative;
-  background-color: var(--black);
-  color: var(--white);
-  padding-bottom: 0;
 }
 
-.header::after {
+.diagonal-wrapper::after {
   content: "";
   position: absolute;
   left: 0;
-  top: 4rem;
+  top: 0;
+  bottom: 0;
+  right: 0;
 
-  width: 100%;
-  height: 100%;
-
-  transform: skewy(-2deg);
+  transform: skewY(var(--skew-degree));
   transform-origin: 50% 0;
   outline: 1px solid transparent;
   backface-visibility: hidden;
+}
 
+.diagonal-wrapper.header::after {
   background-color: var(--black);
 }
 
-.header__content {
-  position: relative;
-  z-index: 1;
-  max-width: var(--max-width);
-  margin: 0 auto;
+.diagonal-wrapper.main::after {
+  background-color: var(--white);
 }
 
+.diagonal-content {
+  position: relative;
+  z-index: 1;
+  padding-bottom: var(--skew-padding);
+  padding-top: var(--skew-padding);
+}
 
 /* Code styles */
 
@@ -126,9 +140,9 @@ p code {
 
 /* General */
 
-.main {
+.main__content {
   max-width: var(--max-width);
-  margin: 6rem auto;
+  margin: 0 auto;
 }
 
 p {
@@ -183,4 +197,31 @@ p {
   font-style: normal;
   font-variant: small-caps;
   letter-spacing: 0.05em;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+/* Header */
+
+.header {
+  background-color: var(--black);
+  color: var(--white);
+  padding-top: 4rem;
+}
+
+.header__content {
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.header__title {
+  font-size: 3rem;
+}
+
+.header__meta {
+  font-size: 0.75em;
+  font-variant: small-caps;
+  letter-spacing: 0.1em;
 }
