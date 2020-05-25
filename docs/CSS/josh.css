@@ -16,8 +16,9 @@
     h1 {
       font-family: 'Bree Serif', serif;
       font-size: 200px;
-      line-height: 2em;
+      line-height: 1em;
       letter-spacing: 0.02em;
+      text-align: center;
      }
       
     h2 {
@@ -76,9 +77,9 @@
 
     .grundraster{
       display: grid;
-      grid-template-columns: 40px repeat(10, 1fr) 40px;
-      grid-template-rows: 500px 80px 150px 80px 150px 150px 80px repeat(3, 150px) 
-      80px repeat(4, 150px) 80px 150px 150px;
+      grid-template-columns: 30px repeat(10, 1fr) 30px;
+      grid-template-rows: 500px 80px 150px 80px 150px 150px 80px repeat(6, 150px) 
+      80px 150px 80px 150px;
       grid-gap: 25px;
       /* min-height:150vh; */
       justify-content: start;
@@ -91,69 +92,61 @@
     }
 
     .header {
-      background: #5248D3;
+      background: rgb(81, 73, 201);
       grid-column: 1 / -1;
       grid-row: 1 / 2;
     }
 
-    .bildheader {
-      grid-column: 4 / 10;
-      grid-row: 1 / 2;
-      width: 100%;
-      max-width: 100%;
-      flex-direction: row;
-      align-items: center;
-      justify-content: flex-start;
-      display: flex;
-    }
-
-    .aussage {
-      grid-column: 4 / 10;
-      grid-row: 3 / 4;
-      text-align: center;
+    .header h1 {
+      padding: 0.55em;
     }
 
     .a {
       grid-column: 3 / 7;
-      grid-row: 5 / 7;
+      grid-row: 3 / 5;
     }
 
     .b {
       grid-column: 3 / 8;
-      grid-row: 12 / 14;
+      grid-row: 10 / 12;
     }
 
     .c {
       background: #5248D3;
       grid-column: 1 / -1;
-      grid-row: 14 / 16;
+      grid-row: 12 / 14;
     }
 
     .textbox {
       grid-column: 4 / 10;
-      grid-row: 14 / 16;
+      grid-row: 12 / 14;
+      align-self: center;
+    }
+
+    .textbox h2 {
       text-align: center;
-      padding-top: 1em;
+      line-height: 1.3em;
+      padding: 0.5em;
     }
 
     .d {
       grid-column: 3 / 7;
-      grid-row: 17 / 19;
+      grid-row: 15 / 17;
     }
 
     .e {
       grid-column: 8 / 12;
-      grid-row: 17 / 19;
+      grid-row: 15 / 17;
     }
 
     .img1 {
       grid-column: 8 / 11;
-      grid-row: 5 / 7;
+      grid-row: 3 / 5;
     }
 
     .img2 {
       grid-column: 3 / 11;
-      grid-row: 8 / 10;
+      grid-row: 6 / 8;
     }
 
 
