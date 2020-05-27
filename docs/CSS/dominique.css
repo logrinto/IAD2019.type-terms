@@ -8,27 +8,34 @@
 
 .hero-image img {
   width: 100%;
-  margin: 0 auto;
 }
 
 body{
-  background: #FBFBFB;
   font-family: 'Raleway', sans-serif;
+  margin: 0 auto;
+  padding: 0;
+  background: rgb(126,234,255);
+  background: linear-gradient(0deg, rgba(126,234,255,1) 0%, rgba(255,255,255,1) 100%);
+
 }
 
 h1{
   margin-top: 4rem;
-  font-size: 3rem;
+  font-size: 6rem;
   font-weight: bold;
   color: black;
+  line-height: 1;
+  padding-bottom: 0;
 }
 
 h2{
   margin-top: 2rem;
   margin-bottom: 0.5rem;
-  font-size: 2rem;
+  font-size: 5rem;
   font-weight: bold;
   color: black;
+  line-height: 1;
+  padding-top: 2rem;
 }
 
 h3{
@@ -46,154 +53,89 @@ p{
   font-kerning: 120%;
   line-height: 1.5;
 }
-
+/*
 .content {
-  min-width: 10rem;
-  margin: 0 auto;
+  background: rgb(126,234,255);
+  background: linear-gradient(0deg, rgba(126,234,255,1) 0%, rgba(255,255,255,1) 100%);
 }
 
+grid*/
 
-/*grid*/
+.raster > * {
+}
 
-.wrapper{
+.raster {
   width: 100%;
-  margin: 0 auto;
+  margin: 0;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: auto;
+  grid-template-columns: 25vw 5vw 20vw 20vw 30vw;
+  grid-auto-rows: min-content;
+  grid-gap: 20px;
 }
 
-.item{
-  background: #e54f5c;
-  color: white;
-  padding: 1rem;
-  height: auto;
+.Headline {
+  grid-column: 2 / 5;
+  grid-row: 1 / 2;
+  padding-top: 4rem;
 }
 
-.item:nth-child(even){
-/*background: #236fc8;*/
-
+.Intro {
+  grid-column: 3 / 5;
+  grid-row: 2 / 3;
 }
 
-.item1{
-  grid-column-start: 1;
-  grid-column-end: 3;
-  background: #fbfafb;
-  padding-bottom: -2rem;
+.Bild_min {
+  grid-column: 3 / 5;
+  grid-row: 3 / 4;
 }
 
-.item2{
-  grid-column-start: 3;
-  grid-column-end: 10;
-  background: #fbfafb;
-  padding-bottom: -2rem;
+.Bild_min img {
+  width: 100%;
 }
 
-.item3{
-  grid-column-start: 1;
-  grid-column-end: 4;
-  background: #fbfafb;
-  background: #fbfafb;
+.Bild_maj {
+  grid-column: 3 / 5;
+  grid-row: 4 / 4;
 }
 
-.item4{
-  grid-column-start: 4;
-  grid-column-end: 8;
-  background: #fbfafb;
+.Bild_maj img {
+  width: 100%;
 }
 
-.item5{
-  grid-column-start: 8;
-  grid-column-end: 10;
-  background: #fbfafb;
+.Gutenberg {
+  grid-column: 3 / 5;
+  grid-row: 5 / 6;
 }
 
-.item6{
-  grid-column-start: 1;
-  grid-column-end: 4;
-  background: #61c4d1;
+.Anwendung {
+  grid-column: 2 / 5;
+  grid-row: 6 / 7;
 }
 
-.item7{
-  grid-column-start: 4;
-  grid-column-end: 8;
-  background: #61c4d1;
+.Minuskel {
+  grid-column: 3 / 4;
+  grid-row: 7 / 8;
 }
 
-.item8{
-  grid-column-start: 8;
-  grid-column-end: 10;
-  background: #61c4d1;
+.Majuskel {
+  grid-column: 4 / 5;
+  grid-row: 7 / 8;
 }
 
-.item9{
-  grid-column-start: 1;
-  grid-column-end: 4;
-  background: #fbfafb;
+.Raleway {
+  grid-column: 2 / 5;
+  grid-row: 8 / 9;
 }
 
-.item10{
-  grid-column-start: 4;
-  grid-column-end: 8;
-  background: #fbfafb;
+.Raleway_Beschrieb {
+  grid-column: 3 / 5;
+  grid-row: 9 / 10;
 }
 
-.item11{
-  grid-column-start: 8;
-  grid-column-end: 10;
-  background: #fbfafb;
-}
-
-.item12{
-  grid-column-start: 1;
-  grid-column-end: 3;
-  background: #61c4d1;
-}
-
-.item13{
-  grid-column-start: 3;
-  grid-column-end: 8;
-  background: #61c4d1;
-}
-
-.item14{
-  grid-column-start: 8;
-  grid-column-end: 10;
-  background: #61c4d1;
-}
-
-.item15{
-  grid-column-start: 1;
-  grid-column-end: 4;
-  background: #61c4d1;
-}
-
-.item16{
-  grid-column-start: 4;
-  grid-column-end: 6;
-  background: #61c4d1;
-}
-
-.item17{
-  grid-column-start: 6;
-  grid-column-end: 8;
-  background: #61c4d1;
-}
-
-.item18{
-  grid-column-start: 8;
-  grid-column-end: 10;
-  background: #61c4d1;
-}
-
-.item19{
-  grid-column-start: 1;
-  grid-column-end: 3;
-  background: #fbfafb;
-}
-
-.item20{
-  grid-column-start: 3;
-  grid-column-end: 10;
-  background: #fbfafb;
+.Quellen {
+  font-size: 0.8rem;
+  grid-column: 3 / 5;
+  grid-row: 10 / 11;
+  padding-top: 10rem;
+  padding-bottom: 3rem;
 }
