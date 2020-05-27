@@ -1,6 +1,9 @@
 :root {
   --black: #131313;
   --white: #ffffff;
+
+  --clamp-color: #3C8067;
+
   --block-margin: 1.75rem;
   --max-width: 42rem;
 
@@ -28,7 +31,7 @@ body {
   letter-spacing: 0.0175em;
   font-size: 1.25rem;
   color: var(--white);
-  background-color: var(--black);
+  background-color: var(--clamp-color);
 }
 
 @media screen and (min-width: 42rem) {
@@ -93,7 +96,7 @@ h2 {
 
 .diagonal-wrapper.header::after,
 .diagonal-wrapper.footer::after  {
-  background-color: var(--black);
+  background-color: var(--clamp-color);
 }
 
 .diagonal-wrapper.main::after {
@@ -245,7 +248,6 @@ a {
 /* Header */
 
 .header {
-  background-color: var(--black);
   padding-top: 4rem;
   padding-bottom: 2rem;
 }
