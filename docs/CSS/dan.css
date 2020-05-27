@@ -1,7 +1,7 @@
 :root {
   --black: #131313;
   --white: #ffffff;
-  --block-margin: 1.5rem;
+  --block-margin: 1.75rem;
   --max-width: 42rem;
 
   /* Diagonal values */
@@ -106,15 +106,8 @@ h2 {
   padding-bottom: var(--skew-padding);
   padding-top: var(--skew-padding);
 
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
-@media screen and (min-width: 42rem) {
-  .diagonal-content {
-    padding-left: 0;
-    padding-right: 0;
-  }
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 /* Code styles */
@@ -160,6 +153,7 @@ pre {
 }
 
 p code {
+  font-size: .875em;
   padding: .125em .375em;
   border-radius: .25rem;
 }
@@ -253,6 +247,13 @@ a {
 .header {
   background-color: var(--black);
   padding-top: 4rem;
+  padding-bottom: 2rem;
+}
+
+@media screen and (min-width: 42rem) {
+  .header {
+    padding-top: 4rem;
+  }
 }
 
 .header__content {
