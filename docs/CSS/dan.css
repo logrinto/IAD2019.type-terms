@@ -1,7 +1,21 @@
 :root {
   --black: #131313;
   --white: #ffffff;
-  --block-margin: 2rem;
+  --block-margin: 1.75rem;
+  --max-width: 42rem;
+
+  /* Diagonal values */
+  --magic-number: 0.03496; /* tan(11°)/2 */
+  --content-width: 100vw;
+  --skew-degree: -4deg;
+  --skew-padding: calc(var(--content-width) * var(--magic-number));
+}
+
+@media screen and (min-width: 42rem) {
+  :root {
+    --content-width: 42rem;
+    --skew-padding: calc(var(--content-width) * var(--magic-number) + 3rem);
+  }
 }
 
 html {
@@ -10,8 +24,17 @@ html {
 
 body {
   font-family: 'Lora', serif;
-  line-height: 1.5;
+  line-height: 1.6;
+  letter-spacing: 0.0175em;
   font-size: 1.25rem;
+  color: var(--white);
+  background-color: var(--black);
+}
+
+@media screen and (min-width: 42rem) {
+  body {
+    font-size: 1.5rem;
+  }
 }
 
 h1,
@@ -20,20 +43,72 @@ h3,
 h4,
 h5,
 h6 {
-  line-height: 1.1;
+  line-height: 1.2;
   letter-spacing: 0.03em;
   margin-bottom: 1rem;
   font-weight: bold;
+  font-variant: small-caps;
 }
 
 h1 {
   font-size: 2rem;
 }
 
-h2 {
-  font-size: 1.5rem;
+@media screen and (min-width: 42rem) {
+  h1 {
+    font-size: 3rem;
+  }
 }
 
+h2 {
+  font-size: 1.5rem;
+  margin: calc(var(--block-margin) * 2) 0 var(--block-margin);
+}
+
+@media screen and (min-width: 42rem) {
+  h2 {
+    font-size: 2rem;
+  }
+}
+
+/* Diagonal styles */
+
+.diagonal-wrapper {
+  position: relative;
+}
+
+.diagonal-wrapper::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+
+  transform: skewY(var(--skew-degree));
+  transform-origin: 50% 0;
+  outline: 1px solid transparent;
+  backface-visibility: hidden;
+}
+
+.diagonal-wrapper.header::after,
+.diagonal-wrapper.footer::after  {
+  background-color: var(--black);
+}
+
+.diagonal-wrapper.main::after {
+  background-color: var(--white);
+}
+
+.diagonal-content {
+  position: relative;
+  z-index: 1;
+  padding-bottom: var(--skew-padding);
+  padding-top: var(--skew-padding);
+
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
 
 /* Code styles */
 
@@ -48,9 +123,11 @@ code {
 }
 
 pre {
-  padding: .25rem 1rem 1rem;
+  font-size: 0.75em;
+  padding: 1.25em;
   border-radius: .25rem;
   margin: var(--block-margin) 0;
+  overflow: auto;
 }
 
 .css-name-selector,
@@ -76,8 +153,9 @@ pre {
 }
 
 p code {
+  font-size: .875em;
   padding: .125em .375em;
-  border-radius: .125rem;
+  border-radius: .25rem;
 }
 
 
@@ -88,34 +166,113 @@ p code {
 
 /* General */
 
-.main {
-  max-width: 36rem;
-  margin: 3rem auto;
+.main__content {
+  max-width: var(--max-width);
+  margin: 0 auto;
+
+  color: var(--black);
 }
 
 p {
   margin: var(--block-margin) 0;
 }
 
+ul {
+  margin: var(--block-margin) 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+}
+
 .example {
   padding: 1.5rem;
   background-color: #efefef;
   margin: var(--block-margin) 0;
+  border-radius: .25rem;
 }
 
 .example p {
   margin: 0;
 }
 
-.first-letter-cap::first-letter {
+.example--animation {
+  position: relative;
+  max-height: 8em;
+  overflow: hidden;
+}
+
+.example--animation::after {
+  content: "";
+  position: absolute;
+  height: 3.5em;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: linear-gradient(to bottom, transparent, #efefef);
+}
+
+@keyframes first-letter-animation {
+  to {
+    font-size: 3.2em;
+    line-height: 1;
+    margin-right: .25em;
+    font-variation-settings: "wght" 700;
+  }
+}
+
+.first-letter-cap .first-letter {
   float: left;
 
-  font-size: 3em;
-  margin: 0.125em .1875em 0 0.1em;
+  font-size: 1.001em;
+  font-variation-settings: "wght" 400;
+
+  animation: first-letter-animation 2.75s ease-in-out infinite alternate backwards;
 }
 
 .small-caps {
   font-style: normal;
   font-variant: small-caps;
   letter-spacing: 0.05em;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+/* Header */
+
+.header {
+  background-color: var(--black);
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+}
+
+@media screen and (min-width: 42rem) {
+  .header {
+    padding-top: 4rem;
+  }
+}
+
+.header__content {
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.header__meta {
+  font-size: 0.75em;
+  font-variant: small-caps;
+  letter-spacing: 0.1em;
+}
+
+/* Footer */
+
+.footer {
+}
+
+.footer__content {
+  max-width: var(--max-width);
+  margin: 0 auto;
 }
