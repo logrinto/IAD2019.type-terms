@@ -157,12 +157,14 @@ grid*/
 }
 
 .Quellen {
-  font-size: 0.8rem;
   grid-column: 3 / 5;
   grid-row: 13 / 14;
   padding-top: 10rem;
-  padding-bottom: 3rem;
+  padding-bottom: 5rem;
+  font-size: 0.9rem;
 }
+
+
 
 ul {
   list-style-type: none;
