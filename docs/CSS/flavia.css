@@ -6,7 +6,7 @@ html {
 }
 
 
-body {
+.spalte {
   margin-left: 2rem;
   margin-right: 2rem;
   margin-top: 20px;
@@ -27,4 +27,35 @@ p {
   font-size: 1rem;
   line-height: 1.5rem;
   letter-spacing: 0.02em;
+
+
+
+
+  /* .bild {
+    background-color: green;
+  }
+
+  .bild img {
+    width: 100%;
+  } */
+
+  .bild {
+    width: 100%;
+  }
+
+  /* img {
+    margin-bottom: 20px;
+    margin-top: 5px;
+    max-width: 100%;
+  } */
+
+
+  /* img {
+  margin-bottom: 20px;
+  margin-top: 5px;
+  max-width: 100%;
+height: auto;
+width: auto; */
+
+  }
 }
