@@ -1,9 +1,145 @@
-h1{
-	color: red;
+@font-face {
+    font-family: 'Manrope';
+    src: url('Manrope-Light.woff') format('woff'),
+ 		 url('Manrope-Medium.woff') format('woff'),
+ 		  url('Manrope-Bold.woff') format('woff');
 }
 
-div{ 
-	background-color: blue;
-	width: 20px;
-	height: 10px;
+*{
+	margin: 0px;
+	padding: 0px;
 }
+
+body{
+
+	 color: #1c2420;
+	 font-family: 'Manrope-Light';
+	margin-top: 8em;
+
+}
+
+h1{
+	color: #0A5243;
+	font-family: 'Manrope-Light';
+	font-size: 5em;
+}
+h2{
+	color: #0A5243;
+	font-family: 'Manrope-Light';
+	font-size: 2.2em;
+	margin-top: 1em;
+
+}
+
+p{
+	font-size: 1.3em;
+	color: #505957;
+}
+
+p.weiss{
+	color: #ffffff;
+}
+
+h6{
+	font-size: 0.4em;
+	 padding-top: 0.8em;
+	 color: #505957;
+
+}
+img{
+	width: 100%;
+}
+
+
+
+.content{
+	width: 50%;
+   margin: 1em auto; 
+   display:flex;
+   align-items:center;
+   justify-content:left;
+   padding-top: 0.8em;
+	padding-bottom: 0.8em;
+}
+
+
+.einleitung{ 
+	color: red;
+	color: #0A5243;
+	font-size: 2em;
+}
+
+table {
+    border-collapse: collapse;
+    	width: 60%;
+    	height: auto;
+    	 /*background-color: red;*/
+}
+
+td, th {
+    border-bottom: 1px solid #505957;
+    border-top: 1px solid #505957;
+    border-right: 1px solid #505957;
+    border-left: 1px solid #505957;
+}
+
+/*
+
+table, th, td {
+	border: 1px solid #000000;
+}
+
+table {
+	border-collapse: collapse;
+	text-align: center;
+	max-width: 100%;
+}*/
+
+.backgroundcolor{
+
+	background-color:  #0A5243;
+	padding-top: 0.8em;
+	padding-bottom: 0.8em;
+
+
+}
+
+.Beispiela{
+	display: grid;
+	width: 50%;
+	margin: 1em auto; 
+	grid-template-areas:
+	"Regular Bold Kursive";
+
+}
+
+.Regular{
+	grid-area: Regular;
+	font-family: 'Manrope-Light';
+	font-size: 2.5em;
+   text-align: center;
+	border: 1px solid #505957;
+	padding: 2em;
+	color: #0A5243;
+}
+
+.Bold{
+	grid-area: Bold;
+	font-family: 'Manrope-Bold';
+	font-size: 2.5em;
+	text-align: center;
+	border: 1px solid #505957;
+	padding: 2em;
+	color: #0A5243;
+}
+
+.Kursive{
+	grid-area: Kursive;
+	font-style: italic;
+	font-size: 2.5em;
+	text-align: center;
+	border: 1px solid #505957;
+	padding: 2em;
+	color: #0A5243;
+}
+
