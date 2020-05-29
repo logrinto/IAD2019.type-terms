@@ -7,11 +7,11 @@ html {
 
 
 .spalte {
-  margin-left: 2rem;
+  /* margin-left: 2rem;
   margin-right: 2rem;
   margin-top: 20px;
-  margin-bottom: 20px;
-  max-width: 38rem;
+  margin-bottom: 20px; */
+  max-width: 50rem;
   margin-left: auto;
   margin-right: auto;
 }
@@ -24,20 +24,22 @@ h1 {
 
 
 p {
-  font-size: 1rem;
+  font-size: 1.2rem;
   line-height: 1.5rem;
   letter-spacing: 0.02em;
-
-
-
-
-  /* .bild {
-    background-color: green;
   }
+
+  li {
+    font-size: 1.2rem;
+  }
+
+
+
+
 
   .bild img {
     width: 100%;
-  } */
+  }
 
   .bild {
     width: 100%;
