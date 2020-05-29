@@ -1,47 +1,150 @@
-html {
-    color:rgb(198, 254, 149);
-  }
 
-body {
-background-color: rgb(26, 26, 26);
-margin-left: 20px;
-margin-top: 100px;
-margin-right: auto;
-}
+    * {
+      margin: 0px;
+      padding: 0px;
+    }
 
-h1 {
-font-family: 'Bree Serif', serif;
-font-size: 60px;
-line-height: 0.2em;
-letter-spacing: 0.02em;
-}
+    html {
+      color:#F4F4F4;
+    }
 
-h2 {
-font-family: 'Bree Serif', serif;
-font-size: 30px;
-line-height: 0.2em;
-letter-spacing: 0.02em;
-}
+    body {
+      font: 150% sans-serif;
+      background: rgb(26, 26, 26);
+    }
 
-p {
-color: white;
-font-family: 'Open Sans', sans-serif;
-font-size: 17px;
-line-height: 1.5em;
-letter-spacing: 0.05em;
-}
+    h1 {
+      font-family: 'Bree Serif', serif;
+      font-size: 230px;
+      line-height: 1em;
+      letter-spacing: 0.02em;
+     }
 
-h3 {
-font-family: 'Bree Serif', serif;
-font-size: 15px;
-line-height: 0em;
-letter-spacing: 0.05em;
-}
+     h2 {
+      font-family: 'Bree Serif', serif;
+      font-size: 30px;
+      line-height: 1.1em;
+      letter-spacing: 0.02em;
+      padding-right: 2em;
+     }
+    
+    h3 {
+      font-family: 'Bree Serif', serif;
+      font-size: 25px;
+      line-height: 1.5em;
+      letter-spacing: 0.05em;
+     }
 
-.spalte {
-  max-width: 40rem;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0 1.5rem;  
-}
+     h4 {
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 300;
+      font-size: 17px;
+      line-height: 1.7em;
+      letter-spacing: 0.05em;
+      text-decoration-line: none;
+     }
+    
+    p {
+      color: white;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 1.7em;
+      letter-spacing: 0.05em;
+     }
+
+     a {
+      color: #5248D3;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 17px;
+      line-height: 2em;
+      letter-spacing: 0.05em;
+      text-decoration-line: none;
+     }
+
+    .raster > * {
+      padding: 0.5em;
+      font-size: 2em;
+    }
+
+    /* .main {
+      min-height: 800px;
+    } */
+
+    .raster {
+      display: grid;
+      grid-template-columns: 0.7fr repeat(6, 1fr) 0.7fr;
+      /* grid-template-rows: 500px 100px 1fr 50px 1fr 1fr 50px 1fr 100px 1fr; */
+      grid-row-gap: 2.7em;
+      grid-column-gap: 1em;
+      grid-template-areas: 
+      "header header header header header header header header" 
+      ". . . . . . . . "
+      ". content1 content1 content1 content1 . . ."
+      ". . . . . . . . "
+      ". content2 content2 content2 content2 content2 content2 ."
+      ". . . . . . . . "
+      "content3 content3 content3 content3 content3 content3 content3 content3"
+      ". . . . . . . . "
+      ". content4 content4 content4 content5 content5 content5 ."
+      ". . . . . . . . ";
+      justify-content: end;
+    }
+
+     img {
+      max-width: 100%;
+    }
+
+    .header {
+      grid-area: header;
+      background: rgb(81, 73, 201);
+      /* height: 100vh; */
+      align-self: center;
+      padding-top: 4em;
+      padding-bottom: 4em;
+    }
+
+    .header h3 {
+      text-align: center;
+    }
+
+    .header h1 {
+      text-align: center;
+    }
+
+    .content1 {
+      grid-area: content1;
+      /* border: 1px white solid; */
+    }
+
+    .content2 {
+      grid-area: content2;
+      /* border: 1px white solid; */
+    }
+
+    .content2-text {
+      padding-right: 35%;
+    }
+
+    .content3 {
+      grid-area: content3;
+      align-self: start;
+      background: rgb(81, 73, 201);
+    }
+
+    .content3 h2 {
+      text-align: center;
+      line-height: 1.4em;
+      padding-left: 15%;
+      padding-right: 15%;
+      padding-top: 3em;
+      padding-bottom: 3em;
+    }
+
+    .content4 {
+      grid-area: content4;
+    }
+
+    .content5 {
+      grid-area: content5;
+    }
