@@ -1,30 +1,44 @@
 body {
   font-family: 'Montserrat', sans-serif;
-  background-image: linear-gradient(180deg,#691510,#1d0a04);
-  margin-left: 30em;
-  margin-right: 30em;
-  margin-top: 5em;
-  margin-bottom: 5em;
+  background: white;
+  margin: 0 auto;
+  padding: 0;
+}
+
+div {
+  padding-left: 30em;
+  padding-right: 30em;
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 
 html {
   font-size: 17px;
   line-height: 26px;
-  color: #f4be51;
+  color: black;
+}
+
+code {
+  font-size: 18px;
+  color: darkred;
+}
+
+.satzart-images img {
+  width: 100%;
 }
 
 h1 {
   font-family: 'Montserrat Subrayada', sans-serif;
   font-size: 60px;
   line-height: 55px;
-  color: white;
+  color: black;
 }
 
 h2 {
   font-family: 'Montserrat Subrayada', sans-serif;
   font-size: 30px;
   line-height: 45px;
-  color: white;
+  color: black;
 }
 
 p {
@@ -33,6 +47,12 @@ p {
 @media screen and (max-width: 1024px) {
   body {
     margin: 10px;
+    }
+    div {
+      padding-left: 2em;
+      padding-right: 2em;
+      padding-top: 1em;
+      padding-bottom: 1em;
     }
     html {
       font-size: 16px;
@@ -79,7 +99,7 @@ p {
 }
 
 i {
-  color: white;
+  color: black;
 }
 
 
@@ -94,8 +114,8 @@ i {
   box-shadow: inset 0 0 2.5px 2px rgb(63, 63, 63)
 }
 ::-webkit-scrollbar-thumb{
-  background: linear-gradient(20deg,#f4be51,#691510,#1d0a04);
-  border-radius: 5px;
+  background: linear-gradient(20deg,white,yellow,red);
+  border-radius: 0px;
 }
 
 /* ---- Ende Scroll bar ---- */
@@ -106,20 +126,20 @@ i {
 
 a:link, a:visited {
   text-decoration: none;
-  background-image: linear-gradient(90deg,#fff,#f4be51,#841c16);
+  background-image: linear-gradient(90deg,#000,#f4be51,#841c16);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   cursor: pointer; /* Add a mouse pointer on hover */
 }
 
 a:hover {
-  background-image: linear-gradient(270deg,#fff,#f4be51,#841c16);
+  background-image: linear-gradient(270deg,#000,#f4be51,#841c16);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 a:link:active, a:visited:active {
-  background-image: linear-gradient(90deg,#fff,#f4be51,#841c16);
+  background-image: linear-gradient(90deg,#000,#f4be51,#841c16);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
