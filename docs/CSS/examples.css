@@ -25,12 +25,13 @@
 /* -- start nina -- */
 @import url("https://fonts.googleapis.com/css?family=XXXX:400,700");
 .term--nina {
-  font-family: "XXX", sans-serif;
+  font-family: 'Sen', sans-serif;
   font-weight: 400;
 }
 
 .term--nina .term__title {
-  font-weight: 700;
+  font-family: 'Sen', sans-serif;
+  font-weight: 800;
 }
 /* -- end nina -- */
 
@@ -65,9 +66,9 @@
 /* -- end samira -- */
 
 /* -- start stefanos -- */
-@import url("https://fonts.googleapis.com/css?family=XXXX:400,700");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@400;700&display=swap');
 .term--stefanos {
-  font-family: "XXX", sans-serif;
+  font-family: 'Montserrat Subrayada', sans-serif;
   font-weight: 400;
 }
 
@@ -125,9 +126,9 @@
 /* -- end desi -- */
 
 /* -- start sina -- */
-@import url("https://fonts.googleapis.com/css?family=XXXX:400,700");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
 .term--sina {
-  font-family: "XXX", sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   font-weight: 400;
 }
 
