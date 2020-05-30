@@ -55,12 +55,12 @@
     }
 
 .term--samira {
-  font-family: font-family: 'Manrope-Light';
+  font-family:'Manrope-Light';
   /*font-weight: 400;*/
 }
 
 .term--samira .term__title {
-  font-family: 'Manrope-Bold';
+  font-family:'Manrope-Bold';
 }
 /* -- end samira -- */
 
