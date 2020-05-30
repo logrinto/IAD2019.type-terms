@@ -25,12 +25,13 @@
 /* -- start nina -- */
 @import url("https://fonts.googleapis.com/css?family=XXXX:400,700");
 .term--nina {
-  font-family: "XXX", sans-serif;
+  font-family: 'Sen', sans-serif;
   font-weight: 400;
 }
 
 .term--nina .term__title {
-  font-weight: 700;
+  font-family: 'Sen', sans-serif;
+  font-weight: 800;
 }
 /* -- end nina -- */
 
