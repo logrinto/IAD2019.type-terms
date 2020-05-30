@@ -11,6 +11,10 @@
 <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500;700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&display=swap" rel="stylesheet">
 
+<link rel="stylesheet" href="./CSS/main.css" />
+<link rel="stylesheet" href="./CSS/examples.css" />
+<script src="./js/main.js"></script>
+
   </head>
 
   <body>
@@ -87,6 +91,8 @@ Text- und Bildquellen:
 Meine Schriftwahl: «Lora»
 </p>
 <p class="fliesstext">
+  <code>
+<pre>
   .fliesstext {<br>
   font-size: 1.2em;<br>
   font-family: 'Lora', serif;<br>
@@ -96,6 +102,9 @@ Meine Schriftwahl: «Lora»
   letter-spacing: 0.03rem;<br>
   margin-bottom: 3rem;<br>
   }
+</pre>
+</code>
+
   <br>
   <br>
 Lora ist eine ausgewogene zeitgenössische Serife mit Wurzeln in der Kalligraphie. Es ist eine Textschrift mit mässigem Kontrast, die sich gut für Fliesstext eignet.
@@ -104,6 +113,29 @@ Technisch gesehen ist Lora für die Bildschirmdarstellung optimiert und funktion
 
 
 </p>
+
+<!-- start navigation -->
+<div class="navigation">
+
+  <div class="navigation--inner">
+    <div class="navigation--menu" id="site-navigation">
+      <nav class="menu">
+        CONTENT
+      </nav>
+    </div>
+  </div>
+  <button
+    class="navigation--toggle"
+    aria-controls="site-navigation"
+    aria-expanded="true"
+    aria-label="Menu"
+  >
+    <span class="navigation--hamburger close"
+      ><span class="navigation--label">Hauptmenü</span></span
+    >
+  </button>
+</div>
+<!-- end navigation -->
 
   </body>
 </html>
