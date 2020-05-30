@@ -1,5 +1,47 @@
-/* -- start intro -- */
+/* -- font intro -- */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
+
+/* -- font dan -- */
+@import url('https://fonts.googleapis.com/css2?family=Spectral&family=Spectral+SC:wght@700&display=swap');
+
+/* -- font nina -- */
+@import url("https://fonts.googleapis.com/css?family=XXXX:400,700");
+
+/* -- font sam -- */
+@import url("https://fonts.googleapis.com/css?family=XXXX:400,700");
+
+/* -- font stefanos -- */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Montserrat+Subrayada:wght@700&display=swap');
+
+/* -- font patrick -- */
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&display=swap");
+
+/* -- font chantal -- */
+@import url("https://fonts.googleapis.com/css?family=XXXX:400,700");
+
+/* -- font josh -- */
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Open+Sans:wght@300;800&display=swap');
+
+/* -- font desi -- */
+@import url("https://fonts.googleapis.com/css?family=XXXX:400,700");
+
+/* -- font sina -- */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+/* -- font selina -- */
+@import url("https://fonts.googleapis.com/css?family=XXXX:400,700");
+
+/* -- font flavia -- */
+@import url("https://fonts.googleapis.com/css?family=XXXX:400,700");
+
+/* -- font cheyenne -- */
+@import url('https://rsms.me/inter/inter.css');
+
+/* -- font dominique -- */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;800&display=swap');
+
+
+/* -- start intro -- */
 .term--intro {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
@@ -11,19 +53,19 @@
 /* -- end intro -- */
 
 /* -- start dan -- */
-@import url("https://fonts.googleapis.com/css?family=XXXX:400,700");
 .term--dan {
-  font-family: "XXX", sans-serif;
+  font-family: "Spectral", sans-serif;
   font-weight: 400;
 }
 
 .term--dan .term__title {
+  font-family: "Spectral SC", sans-serif;
   font-weight: 700;
+  line-height: 1.1;
 }
 /* -- end dan -- */
 
 /* -- start nina -- */
-@import url("https://fonts.googleapis.com/css?family=XXXX:400,700");
 .term--nina {
   font-family: 'Sen', sans-serif;
   font-weight: 400;
@@ -36,7 +78,6 @@
 /* -- end nina -- */
 
 /* -- start sam -- */
-@import url("https://fonts.googleapis.com/css?family=XXXX:400,700");
 .term--sam {
   font-family: "XXX", sans-serif;
   font-weight: 400;
@@ -66,21 +107,20 @@
 /* -- end samira -- */
 
 /* -- start stefanos -- */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@400;700&display=swap');
 .term--stefanos {
-  font-family: 'Montserrat Subrayada', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
 }
 
 .term--stefanos .term__title {
+  font-family: 'Montserrat Subrayada', sans-serif;
   font-weight: 700;
 }
 /* -- end stefanos -- */
 
 /* -- start patrick -- */
-@import url("https://fonts.googleapis.com/css?family=XXXX:400,700");
 .term--patrick {
-  font-family: "XXX", sans-serif;
+  font-family: 'Lora', sans-serif;
   font-weight: 400;
 }
 
@@ -90,7 +130,6 @@
 /* -- end patrick -- */
 
 /* -- start chantal -- */
-@import url("https://fonts.googleapis.com/css?family=XXXX:400,700");
 .term--chantal {
   font-family: "XXX", sans-serif;
   font-weight: 400;
@@ -102,19 +141,18 @@
 /* -- end chantal -- */
 
 /* -- start josh -- */
-@import url("https://fonts.googleapis.com/css?family=XXXX:400,700");
 .term--josh {
-  font-family: "XXX", sans-serif;
-  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
 }
 
 .term--josh .term__title {
-  font-weight: 700;
+  font-family: 'Bree Serif', serif;
+  font-weight: 800;
 }
 /* -- end josh -- */
 
 /* -- start desi -- */
-@import url("https://fonts.googleapis.com/css?family=XXXX:400,700");
 .term--desi {
   font-family: "XXX", sans-serif;
   font-weight: 400;
@@ -126,7 +164,6 @@
 /* -- end desi -- */
 
 /* -- start sina -- */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
 .term--sina {
   font-family: 'Noto Sans', sans-serif;
   font-weight: 400;
@@ -138,7 +175,6 @@
 /* -- end sina -- */
 
 /* -- start selina -- */
-@import url("https://fonts.googleapis.com/css?family=XXXX:400,700");
 .term--selina {
   font-family: "XXX", sans-serif;
   font-weight: 400;
@@ -150,7 +186,6 @@
 /* -- end selina -- */
 
 /* -- start flavia -- */
-@import url("https://fonts.googleapis.com/css?family=XXXX:400,700");
 .term--flavia {
   font-family: "XXX", sans-serif;
   font-weight: 400;
@@ -162,19 +197,17 @@
 /* -- end flavia -- */
 
 /* -- start cheyenne -- */
-@import url("https://fonts.googleapis.com/css?family=XXXX:400,700");
 .term--cheyenne {
-  font-family: "XXX", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 400;
 }
 
 .term--cheyenne .term__title {
-  font-weight: 700;
+  font-weight: 300;
 }
 /* -- end cheyenne -- */
 
 /* -- start dominique -- */
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;800&display=swap');
 .term--dominique {
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
