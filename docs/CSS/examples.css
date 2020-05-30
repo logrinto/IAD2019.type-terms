@@ -125,9 +125,9 @@
 /* -- end desi -- */
 
 /* -- start sina -- */
-@import url("https://fonts.googleapis.com/css?family=XXXX:400,700");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
 .term--sina {
-  font-family: "XXX", sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   font-weight: 400;
 }
 
