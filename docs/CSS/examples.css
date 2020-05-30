@@ -25,12 +25,13 @@
 /* -- start nina -- */
 @import url("https://fonts.googleapis.com/css?family=XXXX:400,700");
 .term--nina {
-  font-family: "XXX", sans-serif;
+  font-family: 'Sen', sans-serif;
   font-weight: 400;
 }
 
 .term--nina .term__title {
-  font-weight: 700;
+  font-family: 'Sen', sans-serif;
+  font-weight: 800;
 }
 /* -- end nina -- */
 
@@ -77,9 +78,9 @@
 /* -- end stefanos -- */
 
 /* -- start patrick -- */
-@import url("https://fonts.googleapis.com/css?family=XXXX:400,700");
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&display=swap");
 .term--patrick {
-  font-family: "XXX", sans-serif;
+  font-family: 'Lora', serif;
   font-weight: 400;
 }
 
@@ -101,14 +102,15 @@
 /* -- end chantal -- */
 
 /* -- start josh -- */
-@import url("https://fonts.googleapis.com/css?family=XXXX:400,700");
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Open+Sans:wght@300;800&display=swap');
 .term--josh {
-  font-family: "XXX", sans-serif;
-  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
 }
 
 .term--josh .term__title {
-  font-weight: 700;
+  font-family: 'Bree Serif', serif;
+  font-weight: 800;
 }
 /* -- end josh -- */
 
@@ -161,14 +163,14 @@
 /* -- end flavia -- */
 
 /* -- start cheyenne -- */
-@import url("https://fonts.googleapis.com/css?family=XXXX:400,700");
+@import url('https://rsms.me/inter/inter.css');
 .term--cheyenne {
-  font-family: "XXX", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 400;
 }
 
 .term--cheyenne .term__title {
-  font-weight: 700;
+  font-weight: 300;
 }
 /* -- end cheyenne -- */
 
