@@ -2,12 +2,12 @@ body {
   font-family: 'Montserrat', sans-serif;
   background: white;
   margin: 0 auto;
-  padding: 0;
+  hyphens: auto;
 }
-/* test */
+
 div {
-  padding-left: 30em;
-  padding-right: 30em;
+  max-width: 40rem;
+  margin: 0 auto;
   padding-top: 2em;
   padding-bottom: 2em;
 }
@@ -46,7 +46,7 @@ p {
 
 @media screen and (max-width: 1024px) {
   body {
-    margin: 10px;
+    margin: 0 auto;
     }
     div {
       padding-left: 2em;
@@ -121,7 +121,6 @@ i {
 }
 
 /* ---- Ende Scroll bar ---- */
-
 
 
 /* ---- Links ---- */
