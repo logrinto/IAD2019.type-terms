@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
 
 /* -- font dan -- */
-@import url("https://fonts.googleapis.com/css?family=XXXX:400,700");
+@import url('https://fonts.googleapis.com/css2?family=Spectral&family=Spectral+SC:wght@700&display=swap');
 
 /* -- font nina -- */
 @import url("https://fonts.googleapis.com/css?family=XXXX:400,700");
@@ -54,12 +54,14 @@
 
 /* -- start dan -- */
 .term--dan {
-  font-family: "XXX", sans-serif;
+  font-family: "Spectral", sans-serif;
   font-weight: 400;
 }
 
 .term--dan .term__title {
+  font-family: "Spectral SC", sans-serif;
   font-weight: 700;
+  line-height: 1.1;
 }
 /* -- end dan -- */
 
