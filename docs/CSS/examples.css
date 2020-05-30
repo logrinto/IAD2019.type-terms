@@ -120,11 +120,12 @@
 
 /* -- start patrick -- */
 .term--patrick {
-  font-family: 'Lora', sans-serif;
+  font-family: 'Lora', serif;
   font-weight: 400;
 }
 
 .term--patrick .term__title {
+  font-family: 'Ubuntu', sans-serif;
   font-weight: 700;
 }
 /* -- end patrick -- */
