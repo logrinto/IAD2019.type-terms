@@ -26,7 +26,7 @@ html {
 }
 
 body {
-  font-family: 'Lora', serif;
+  font-family: 'Spectral', serif;
   line-height: 1.6;
   letter-spacing: 0.0175em;
   font-size: 1.25rem;
@@ -50,7 +50,7 @@ h6 {
   letter-spacing: 0.03em;
   margin-bottom: 1rem;
   font-weight: bold;
-  font-variant: small-caps;
+  font-family: 'Spectral SC', serif;
 }
 
 h1 {
@@ -237,7 +237,7 @@ a {
 
 .small-caps {
   font-style: normal;
-  font-variant: small-caps;
+  font-family: 'Spectral SC', serif;
   letter-spacing: 0.05em;
 }
 
@@ -265,7 +265,7 @@ a {
 
 .header__meta {
   font-size: 0.75em;
-  font-variant: small-caps;
+  font-family: 'Spectral SC', serif;
   letter-spacing: 0.1em;
 }
 
