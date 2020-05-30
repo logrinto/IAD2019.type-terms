@@ -187,24 +187,3 @@ a {
 a:hover {
   color: #91A8A4;
 }
-
-
-.Raster_Bottom > * {
-}
-
-.Raster_Bottom {
-  width: 100%;
-  margin: 0;
-  display: grid;
-  grid-template-columns: 25vw 5vw 20vw 20vw 30vw;
-  grid-auto-rows: min-content;
-  grid-gap: 20px;
-}
-
-.Bottom {
-  grid-column: 1 / 6;
-  grid-row: 1 / 2;
-  background-color: white;
-  text-align: center;
-  padding-top: 5rem;
-}
