@@ -4,8 +4,7 @@
 
   --clamp-color: #3C8067;
 
-  --block-margin: 1.75rem;
-  --max-width: 42rem;
+  --block-margin: 1.5rem;
 
   /* Diagonal values */
   --magic-number: 0.03496; /* tan(11°)/2 */
@@ -14,10 +13,17 @@
   --skew-padding: calc(var(--content-width) * var(--magic-number));
 }
 
-@media screen and (min-width: 42rem) {
+@media screen and (min-width: 40rem) {
   :root {
-    --content-width: 42rem;
+    --block-margin: 1.625rem;
+  }
+}
+
+@media screen and (min-width: 52rem) {
+  :root {
+    --content-width: 52rem;
     --skew-padding: calc(var(--content-width) * var(--magic-number) + 3rem);
+    --block-margin: 1.75rem;
   }
 }
 
@@ -29,12 +35,18 @@ body {
   font-family: 'Spectral', serif;
   line-height: 1.6;
   letter-spacing: 0.0175em;
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   color: var(--white);
   background-color: var(--clamp-color);
 }
 
-@media screen and (min-width: 42rem) {
+@media screen and (min-width: 40rem) {
+  body {
+    font-size: 1.375rem;
+  }
+}
+
+@media screen and (min-width: 52rem) {
   body {
     font-size: 1.5rem;
   }
@@ -57,7 +69,7 @@ h1 {
   font-size: 2rem;
 }
 
-@media screen and (min-width: 42rem) {
+@media screen and (min-width: 52rem) {
   h1 {
     font-size: 3rem;
   }
@@ -68,7 +80,13 @@ h2 {
   margin: calc(var(--block-margin) * 2) 0 var(--block-margin);
 }
 
-@media screen and (min-width: 42rem) {
+@media screen and (min-width: 40rem) {
+  h2 {
+    font-size: 1.75rem;
+  }
+}
+
+@media screen and (min-width: 52rem) {
   h2 {
     font-size: 2rem;
   }
@@ -170,7 +188,7 @@ p code {
 /* General */
 
 .main__content {
-  max-width: var(--max-width);
+  max-width: var(--content-width);
   margin: 0 auto;
 
   color: var(--black);
@@ -252,14 +270,14 @@ a {
   padding-bottom: 2rem;
 }
 
-@media screen and (min-width: 42rem) {
+@media screen and (min-width: 52rem) {
   .header {
     padding-top: 4rem;
   }
 }
 
 .header__content {
-  max-width: var(--max-width);
+  max-width: var(--content-width);
   margin: 0 auto;
 }
 
@@ -281,6 +299,6 @@ a {
 }
 
 .footer__content {
-  max-width: var(--max-width);
+  max-width: var(--content-width);
   margin: 0 auto;
 }
