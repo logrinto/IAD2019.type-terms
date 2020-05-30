@@ -1,21 +1,128 @@
 html {
-  font-family: 'Raleway', sans-serif;
-font-size: 16px;
+font-family: noto-sans, sans-serif;
+font-size: 17px;
 margin: 0px;
 letter-spacing: 0.01em;
 hyphens: auto;
-margin-left: 7%;
-margin-right: 7%;
-margin-top: 10%;
+border-color: #ed6c90;
+border-width: 12px;
+border-style: solid;
 }
 
 p{
-  width: 70%;
-  letter-spacing: 0.5px;
-  line-height: 1.5;
+  letter-spacing: 0.6px;
+  line-height: 1.7;
 
 
 }
 h1 {
+font-family: noto-sans, sans-serif;
+font-weight: 700;
+font-style: italic;
+font-size: 130%;
+}
 
+.raster {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 800px 800px 200px 800px 350px 800px 300px 240px 1000px 300px 130px 800px 300px;
+  grid-gap: 20px;
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-top: 2%;
+
+  grid-template-areas:
+  "titel titel titel titel titel titel"
+  "einleitung einleitung einleitung . . ."
+  ". wasgibts wasgibts wasgibts . ."
+  ". uebersicht uebersicht uebersicht . ."
+  "divistitel divistitel divistitel divistitel divistitel divistitel"
+  ". . divistext divistext divistext ."
+  ". . . . . ."
+  "gedankenstrich gedankenstrich gedankenstrich gedankenstrich gedankenstrich gedankenstrich"
+  ". . gedankenstrichtext gedankenstrichtext gedankenstrichtext ."
+  ". . . . . ."
+  "geviert geviert geviert geviert geviert geviert"
+  ". . gevierttext gevierttext gevierttext ."
+
+}
+.titel {
+  grid-area: titel;
+grid-template-rows: 300px;
+font-size: 1300%;
+text-align: end;
+line-height: 1.05em;
+letter-spacing: -0.02em;
+font-weight: 700;
+font-style: normal;
+}
+
+
+.einleitung {
+  grid-area: einleitung;
+
+}
+
+
+
+
+.wichtigsten{
+  grid-area: wichtigsten;
+  font-family: noto-sans, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 130%;
+}
+
+.uebersicht {
+  grid-area: uebersicht;
+}
+.wasgibts {
+  grid-area: wasgibts;
+}
+
+
+.divistitel {
+  grid-area: divistitel;
+  font-size: 600%;
+  font-weight: 700;
+  color: #ed6c90;
+  margin-left: -5%;
+  letter-spacing: -0.02em;
+  line-height: 1.05em;
+
+}
+
+.divistext {
+  grid-area: divistext;
+}
+
+.gedankenstrich {
+  grid-area: gedankenstrich;
+  font-size: 600%;
+  font-weight: 700;
+  color: #ed6c90;
+  margin-left: -5%;
+  letter-spacing: -0.02em;
+  line-height: 1.05em;
+
+}
+
+.gedankenstrichtext {
+  grid-area: gedankenstrichtext;
+}
+
+.geviert {
+  grid-area: geviert;
+  font-size: 600%;
+  font-weight: 700;
+  color: #ed6c90;
+  margin-left: -5%;
+  letter-spacing: -0.02em;
+  line-height: 1.05em;
+
+}
+
+.gevierttext {
+  grid-area: gevierttext;
 }
