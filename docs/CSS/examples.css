@@ -101,14 +101,15 @@
 /* -- end chantal -- */
 
 /* -- start josh -- */
-@import url("https://fonts.googleapis.com/css?family=XXXX:400,700");
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Open+Sans:wght@300;800&display=swap');
 .term--josh {
-  font-family: "XXX", sans-serif;
-  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
 }
 
 .term--josh .term__title {
-  font-weight: 700;
+  font-family: 'Bree Serif', serif;
+  font-weight: 800;
 }
 /* -- end josh -- */
 
