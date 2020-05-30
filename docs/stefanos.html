@@ -3,63 +3,160 @@
   <head>
     <meta charset="utf-8">
     <title>Satzart</title>
-    <!-- <link rel="stylesheet" href="styles/stefanos.css"> -->
-    <!-- <script src="script.js"></script> -->
+    <link rel="stylesheet" href="CSS/stefanos.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Subrayada&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/main.css" />
+    <link rel="stylesheet" href="./CSS/examples.css" />
+    <script src="./js/main.js"></script>
+
   </head>
   <body>
 
-    <div>
-    <h1>Satzart</h1>
-<p>Eine mehrzeilige Satzanordnung wird in der Typografie als Satzart oder auch Satzanordnung bezeichnet. Dabei spielen die Schriftsatzausrichtung (Satzausrichtung) und Relativierung von Zeilenanfängen, -enden, -längen und -linien eines Schriftsatzes zueinander eine wichtige Rolle. In Bezug auf Ausrichtung einer Satzart sind die Texte in der Regel linksbündig, rechtsbündig oder axial (zentrierter Satz) ausgerichtet.
-</p>
+  <span class="satzart-images">
+      <img src="./Links/stefanos/satzart_titel.png" alt="Satzart"/>
+  </span>
+<!-- test -->
+      <div>
+        <p><i>Typo Term by Stefanos Gjotas</i></p>
+      </div>
 
-<p>Bei der Gestaltung des Druckbildes zählen folgenden Satzarten dazu:
-</p>
+        <div>Eine mehrzeilige Satzanordnung wird in der Typografie als Satzart oder auch Satzanordnung bezeichnet. Dabei spielen die Schriftsatzausrichtung (Satzausrichtung) und Relativierung von Zeilenanfängen, -enden, -längen und -linien eines Schriftsatzes zueinander eine wichtige Rolle. In Bezug auf Ausrichtung einer Satzart sind die Texte in der Regel linksbündig, rechtsbündig oder axial (zentrierter Satz) ausgerichtet.
+
+<br><br>
+<p>Bei der Gestaltung des Druckbildes zählen folgenden Satzarten dazu:</p>
+<br>
 
 <h2>Blocksatz</h2>
 <p>Der als «ausgeschlossene Satz» bezeichnete Blocksatz definiert sich in seiner Ausrichtung der Zeilen eines Textes, bei dem Zeilenanfang und Zeilenende in senkrechter Ausrichtung übereinstimmen. Der Blocksatz findet sich traditionell in der Buch- und Zeitungstypografie.
+   Der unschöne Nebeneffekt vom Blocksatz auf Webseiten ist, dass viele Brower keine gute Silbentrennung unterstützen, was zu unschönen Lücken zwischen den Wörtern führt.
 </p>
+</div>
+
+
+<span class="satzart-images">
+    <img src="./Links/stefanos/blocksatz.png" alt="Blocksatz"/>
+</span>
+
+<div>
+  <!-- <div class="blocksatz">
+    <br>
+    <i>Blocksatz Beispiel:</i>
+  <p>«You won’t get good at anything by doing it a lot fucking aimlessly. Use your fucking hands. Form follows fucking function. Design as if your fucking life depended on it.»
+</p>
+  </div> -->
 
 <h2>Flattersatz</h2>
-<p>In der Typografie wird zwischen asymmetrischem und symmetrischem Flattersatz unterschieden. Der «Asymmetrischer Flattersatz» ist ein Flattersatz mit linksbündiger oder rechtsbündiger Satzausrichtung. Im Gegensatz dazu ist der «Symmetrische Flattersatz» ein gemittelter, gleichmässiger Flattersatz (auch «Axialsatz» oder «Zentrierter Satz»).
+<p>In der Typografie wird zwischen asymmetrischem und symmetrischem Flattersatz unterschieden. Der «Asymmetrischer Flattersatz» ist ein Flattersatz mit linksbündiger oder rechtsbündiger Satzausrichtung.</p>
+</div>
+
+  <span class="satzart-images">
+      <img src="./Links/stefanos/flattersatz.png" alt="Flattersatz"/>
+  </span>
+
+<div>
+
+  <!-- <div>
 </p>
+<div class="flattersatz">
+
+</div> -->
+
+<h2>Axialsatz</h2>
+<p>Im Gegensatz dazu ist der «Symmetrische Flattersatz» ein gemittelter, gleichmässiger Flattersatz (auch «Axialsatz» oder «Zentrierter Satz»).</p>
+</div>
+
+  <span class="satzart-images">
+      <img src="./Links/stefanos/axialsatz.png" alt="Axialsatz"/>
+  </span>
+
+<div>
+
+<!--
+<div class="axialsatz">
+  <i>Axialsatz Beispiel</i>
+<p>
+  Think about all the fucking possibilities. When you sit down to work, external critics aren’t the enemy. It’s you who you must to fight against to do great fucking work.
+</p>
+</div> -->
 
 <h2>Formelsatz</h2>
 <p>Der typografischer Fachausdruck «Formelsatz» bezeichnet in der Typografie eine Schriftsatzart, die aus kaufmännischen, mathematischen oder wissenschaftlichen Formeln besteht.
 </p>
+</div>
+
+
+<span class="satzart-images">
+    <img src="./Links/stefanos/formelsatz.png" alt="Formelsatz"/>
+</span>
+
+<div>
+
 
 <h2>Formsatz</h2>
 <p>Der Formsatz bildet in seinem typografischen Gesamtbild eine in sich geschlossene geometrische Figur oder freie Form ab. Unterschieden wird hierbei zwischen «Kontursatz» und «Freier Formsatz».
 </p>
+</div>
 
-<h2>Satzarten im CSS</h2>
+<span class="satzart-images">
+    <img src="./Links/stefanos/formsatz.png" alt="Formsatz"/>
+</span>
+
+<div>
+
+<br>
+<h2>Anwendung im CSS</h2>
 <p>Mit der CSS-Eigenschaft «text-align» können Texte innerhalb eines Blockelements rechtsbündig, linksbündig, zentriert oder im Blocksatz ausgerichtet werden. Blocksatz auf Webseiten bildet oft unschöne Lücken im Text, da eine gute Silbentrennung noch nicht von allen Browern unterstützt wird.
 </p>
 
-<p>text-align richtet den Text aus mit folgenden Werten:</p>
+
+<p>Der Code <code>text-align</code> richtet den Text aus mit folgenden Werten:</p>
 <ul>
-<li>left ist die Standardeinstellung: Text wird linksbündig ausgerichtet.</li>
-<li>right richtet den Text rechtsbündig aus.</li>
-<li>center zentriert Text mit gleichem Weissraum nach rechts und links.</li>
-<li>justify richtet Text im Blocksatz aus und fügt dafür zusätzlichen Weissraum zwischen Zeichen und Wörter ein.</li>
-<li>inherit erbt die Ausrichtung der Grundeinstellung.</li>
+<li><code>text-align: left;</code> ist die Standardeinstellung: Text wird linksbündig ausgerichtet.</li>
+<li><code>text-align: right;</code> richtet den Text rechtsbündig aus.</li>
+<li><code>text-align: center;</code> zentriert Text mit gleichem Weissraum nach rechts und links.</li>
+<li><code>text-align: justify;</code> richtet Text im Blocksatz aus und fügt dafür zusätzlichen Weissraum zwischen Zeichen und Wörter ein.</li>
+<li><code>text-align: inherit;</code> erbt die Ausrichtung der Grundeinstellung.</li>
 </ul>
 
-
-<h1>Montserrat Alternates</h1>
-
-Die Schriftart Montserrat – inspiriert und benannt nach der traditionellen Nachbarschaft in Buenos Aires (Argentinien) – wurde von der Grafik Designerin Julieta Ulanovsky entworfen. Sie startete das typografische Projekt «The Montserrat Project», welches die urbane Schönheit und Einzigartigkeit der Nachbarschaft widerspiegeln soll. Die Schrift Montserrat Alternates stellt eine Alternative der bekannten Montserrat dar. Kombiniert mit letztgenannter Schriftart harmonisiert sie wunderbar, kann aber auch selbst für längere Texte eingesetzt werden.
+<br><br>
+<h2>Montserrat Subrayada</h2>
+<p>
+Für den Lauftext wird die Schriftart Montserrat verwendet, für die Titel Montserrat Subrayada. Montserrat – inspiriert und benannt nach der traditionellen Nachbarschaft in Buenos Aires (Argentinien) – wurde von der Grafik Designerin Julieta Ulanovsky entworfen. Sie startete das typografische Projekt «The Montserrat Project», welches die urbane Schönheit und Einzigartigkeit der Nachbarschaft widerspiegeln soll. Die Schrift Montserrat Subrayada stellt eine Alternative der bekannten Montserrat dar. Kombiniert mit letztgenannter Schriftart harmonisiert sie wunderbar, kann aber auch selbst für längere Texte eingesetzt werden.
 </p>
 
 <br>
 Quellen:
 <br>
-<a href="https://www.typolexikon.de/formsatz/" target="_blank">Typolexikon</a>
+<a href="https://www.typolexikon.de/schriftsatzart/" target="_blank">«Schriftsatzart» auf Typolexikon</a>
 <br>
-<a href="https://www.mediaevent.de/css/text.html" target="_blank">Mediaevent</a>
+<a href="https://www.mediaevent.de/css/text.html" target="_blank">«Text ausrichten» auf Mediaevent</a>
 <br>
-<a href="https://fonts.google.com/specimen/Montserrat+Alternates?selection.family=Montserrat+Alternates" target="_blank">Google Fonts</a>
+<a href="https://fonts.google.com/specimen/Montserrat+Subrayada" target="_blank">«Montserrat Subrayada» auf Google Fonts</a>
 
 </div>
+
+<!-- start navigation -->
+<div class="navigation">
+
+  <div class="navigation--inner">
+    <div class="navigation--menu" id="site-navigation">
+      <nav class="menu">
+        CONTENT
+      </nav>
+    </div>
+  </div>
+  <button
+    class="navigation--toggle"
+    aria-controls="site-navigation"
+    aria-expanded="true"
+    aria-label="Menu"
+  >
+    <span class="navigation--hamburger close"
+      ><span class="navigation--label">Hauptmenü</span></span
+    >
+  </button>
+</div>
+<!-- end navigation -->
+
   </body>
 </html>

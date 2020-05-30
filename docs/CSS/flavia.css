@@ -1,18 +1,63 @@
 html {
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
+  hyphens: auto;
+
 }
+
+
+.spalte {
+  /* margin-left: 2rem;
+  margin-right: 2rem;
+  margin-top: 20px;
+  margin-bottom: 20px; */
+  max-width: 50rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 h1 {
   font-size: 3rem;
-  font-family: 'Montserrat', sans-serif;
 }
 
 
 
 p {
-  font-size: 1rem;
+  font-size: 1.2rem;
   line-height: 1.5rem;
   letter-spacing: 0.02em;
-  font-family: 'Montserrat', sans-serif;
-  /* width: 50%; */
+  }
+
+  li {
+    font-size: 1.2rem;
+  }
+
+
+
+
+
+  .bild img {
+    width: 100%;
+  }
+
+  .bild {
+    width: 100%;
+  }
+
+
+h3 {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  padding: 1em;
 }
+
+
+  .codezeile {
+    background-color: #f2f2f2;
+  }

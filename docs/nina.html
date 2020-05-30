@@ -3,16 +3,55 @@
   <head>
     <meta charset="utf-8">
     <title>Vierliniensystem</title>
+
+    <link rel="stylesheet" type="text/css" href="./CSS/nina/normalize.css">
+    <link rel="stylesheet" type="text/css" href="./CSS/nina/main.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./CSS/main.css" />
+    <link rel="stylesheet" href="./CSS/examples.css" />
+    <script src="./js/main.js"></script>
+
   </head>
+
+
   <body>
-    <h1>Vertikale Typometrie</h1>
+
+<div class="content">
+
+<div class="titel">
+    <!-- <h1>Vier<br>linien<br>system</h1>
+    <h2>Respect the lines</h2> -->
+    <div class="wort_container">
+      <h1>vier</h1>
+    </div>
+    <div class="wort_container">
+      <h1>Linien</h1>
+    </div>
+    <div class="wort_container">
+      <h1>System</h1>
+    </div>
+    <div class="wort_container">
+      <h2>Respect the lines</h2>
+    </div>
+
+    <div class="abstand"></div>
+
+</div>
+
+<div class="text">
+
+    <h3>Vertikale Typometrie</h3>
 <p>Unter vertikaler Typometrie versteht man die geometrische Konstruktion von Schriftzeichen, die sich in der lateinischen Schrift hauptsächlich an dem sogenannten Vierliniensystem orientiert.
-  <br><br>
   Durch die Gestaltung der Zeichen nach diesem Prinzip, wirkt das Schriftbild einheitlich. Die einzelnen Zeichen sind proportional zueinander und der Lesefluss ist gewährleistet.
 <p>
 
-  <h1>Vertikales Liniensystem</h1>
-  <h2>Vierliniensystem</h2>
+<div class="abstand"></div>
+
+  <h3>Vertikales Liniensystem</h3>
+  <h4>Vierliniensystem</h4>
 <p>Das Vierliniensystem der Typografie funktioniert im Prinzip ähnlich, wie das Schreiben von Musiknoten auf dem linierten Notenblatt.
 Durch diese vier vertikalen (Haupt-)Linien lassen sich die Buchstaben vermassen und einheitlich gestalten:
 </p>
@@ -23,22 +62,33 @@ Durch diese vier vertikalen (Haupt-)Linien lassen sich die Buchstaben vermassen 
   <li>p-Linie</li>
 </ul>
 
+<div class="abstand"></div>
 
-<h2>Weitere, relevante Linien</h2>
+<h4>Weitere, relevante Linien</h4>
 <p>Das Vierliniensystem wird durch einige weitere Linien ergänzt, die essenziell für das Schriftbild sind. Zu diesen zählen:
 </p>
 <ul>
 <li>Kegeloberkante</li>
-<li>x-Linie</li>
 <li>k-Linie</li>
 <li>Kegelunterkante</li>
 </ul>
-
+<br>
 <p>Die folgende Grafik zeigt alle vier Hauptlinien sowie die weiteren, relevanten Linien.
 </p>
 
+<div class="abstand"></div>
 
-<h1>Abstände</h1>
+</div>
+
+<div class="bild_breit">
+<img src="./Links/nina/01_Schriftlinien.svg" alt="Schriftlinien">
+</div>
+
+<div class="abstand"></div>
+
+<div class="text">
+
+<h3>Abstände</h3>
 <p>Durch die vertikalen Linien ergeben sich automatisch verschiedenste Abstände, deren Bezeichnungen ebenfalls zum typografischen Fachwissen gehören. Darunter befinden sich unter anderem:
 </p>
 <ul>
@@ -51,40 +101,123 @@ Durch diese vier vertikalen (Haupt-)Linien lassen sich die Buchstaben vermassen 
 <li>Unterlänge</li>
 </ul>
 
+<div class="abstand"></div>
 
-<h1>Anwendung CSS</h1>
+</div>
+
+<div class="bild_breit">
+<img src="./Links/nina/02_Abstaende.svg" alt="Abstände">
+</div>
+
+<div class="abstand"></div>
+
+
+<div class="text">
+
+<h3>Anwendung CSS</h3>
 <p>Mit Hilfe von CSS können Objekte (z.B. ein Bild) eines HTML-Files an der Schrift ausgerichtet werden.
 Folgende Varianten sind möglich:
 </p>
 <ul>
-<li>vertical-align: text-top; => Ausrichtung an Kegeloberkante</li>
-<li>vertical-align: baseline; => Ausrichtung an Schriftlinie</li>
-<li>vertical-align: text-bottom; => Ausrichtung an Kegelunterkante</li>
+  <li>
+      <div class="code_erklaerung">
+        <div class="code_box">
+          <code>vertical-align: <span>text-top;</span></code>
+      </div>
+      &#8594; Ausrichtung an Kegeloberkante
+    </div>
+</li>
+
+<li>
+    <div class="code_erklaerung">
+      <div class="code_box">
+        <code>vertical-align: <span>baseline;</span></code>
+    </div>
+    &#8594; Ausrichtung an Schriftlinie
+  </div>
+</li>
+
+<li>
+    <div class="code_erklaerung">
+      <div class="code_box">
+        <code>vertical-align: <span>text-bottom;</span></code>
+    </div>
+    &#8594; Ausrichtung an Kegelunterkante
+  </div>
+</li>
+
 </ul>
 
+<div class="abstand"></div>
 
-<h1>Tipp</h1>
-<p>Um ein ideales Ergebnis bei Schriftmischungen zu erhalten:
-Vergleiche die vertikale Typometrie (vertikale Linien) der Schriften miteinander – je ähnlicher sie sind, desto besser lassen sie sich mischen.
-<br><br>
-Zudem gilt: Je höher der Kontrast der Schriftklassen, desto besser gelingt die Mischung.
-(z.B. Serifenlose mit Serifen mischen)
-</p>
+</div>
 
-<h1>Quellen</h1>
-<p>Satztechnik und Typografie, Satztechnische Grundlagen, Richard Frick
+<div class="bild_schmaler">
+<img src="./Links/nina/03_CSS.svg" alt="Anwendung CSS">
+</div>
+
+<div class="text">
+
+  <h3>Tipp</h3>
+  <p>Um ein ideales Ergebnis bei Schriftmischungen zu erhalten:
+  Vergleiche die vertikale Typometrie (vertikalen Linien) der Schriften miteinander – je ähnlicher sie sind, desto besser lassen sie sich mischen.
   <br>
-<a href="https://signalwerk.github.io/learn.interaction/articles/font-anatomy/">signalwerk.github.io</a>
-<br>
-<a href="https://www.netnode.ch/blog/masseinheiten-und-kenngroessen-fuer-die-typographie-im-web">netnode.ch</a>
-<br>
-<a href="https://schriftgestaltung.com/schriftgestaltung/schriftanatomie.html">schriftgestaltung.com</a>
-<br>
-<a href="https://www.typolexikon.de/schriftlinien/">typolexikon.de</a>
-<br>
-<a href="https://reydt.wordpress.com/2015/04/15/woche-1-bei-comcave/">reydt.wordpress.com</a>
+  Zudem gilt: Je höher der Kontrast der Schriftklassen, desto besser gelingt die Mischung.
+  (z.B. Serifenlose mit Serifen mischen)
+  </p>
+
+<div class="abstand"></div>
+
+<h3>«Sen» Schriftart</h3>
+<p>«Sen» wird als (Geo)humanistische, Serifenlose klassifiziert.
+  Eine Humanistische Schrift zeichnet sich dadurch aus, dass sie in ihren Grundformen an das Schreiben mit der Hand erinnert (beispielsweise durch unterschiedliche Strichstärken).
+  Sie wird von ihrem Herausgeber «Philatype» als geometrisch konstruierte, serifenlose Schrift, welche jedoch ein freundliches Aussehen vorweist, beschrieben.
+  «Betrachten Sie sie als eine neutralere Version geometrischer Klassiker wie Avenir oder Futura mit einem humanistischen Touch. Sie ist bescheiden, einzigartig und vor allem leicht zu lesen.» – Philatype.
+  «Sen» wurde unter der SIL Open Font License (OFL) veröffentlicht und wird kostenlos auf verschiedenen Webseiten angeboten.
 </p>
 
+<div class="abstand"></div>
+
+<h3>Quellen</h3>
+<ul>
+<li><p>Satztechnik und Typografie, Satztechnische Grundlagen, Richard Frick</p></li>
+<li><a href="https://signalwerk.github.io/learn.interaction/articles/font-anatomy/">Artikel «Fonts, Eigenschaften» – Stefan Huber</a></li>
+<li><a href="https://www.netnode.ch/blog/masseinheiten-und-kenngroessen-fuer-die-typographie-im-web">Blogbeitrag «Masseinheiten und Kenngrössen für die Typographie im Web» – Lukas Fischer</a></li>
+<li><a href="https://schriftgestaltung.com/schriftgestaltung/schriftanatomie.html">Artikel «Schrift-Anatomie»</a></li>
+<li><a href="https://www.typolexikon.de/schriftlinien/">Typolexikon Eintrag «Schriftlinien» – Wolfgang Beinert</a></li>
+<li><a href="https://reydt.wordpress.com/2015/04/15/woche-1-bei-comcave/">Beitrag «Vier-Linien-System» – Reydt</a></li>
+<li><a href="https://https://www.philatype.com/sen">«Sen» Schriftart – Philatype</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Category:Humanist_sans-serif_typefaces">Wikipedia Eintrag «Humanist sans-serif typefaces»</a></li>
+  </ul>
+
+  <div class="abstand"></div>
+  <div class="abstand"></div>
+
+
+</div>
+
+<!-- start navigation -->
+<div class="navigation">
+
+  <div class="navigation--inner">
+    <div class="navigation--menu" id="site-navigation">
+      <nav class="menu">
+        CONTENT
+      </nav>
+    </div>
+  </div>
+  <button
+    class="navigation--toggle"
+    aria-controls="site-navigation"
+    aria-expanded="true"
+    aria-label="Menu"
+  >
+    <span class="navigation--hamburger close"
+      ><span class="navigation--label">Hauptmenü</span></span
+    >
+  </button>
+</div>
+<!-- end navigation -->
 
   </body>
 </html>
