@@ -8,7 +8,7 @@
 @import url("https://fonts.googleapis.com/css?family=XXXX:400,700");
 
 /* -- font sam -- */
-@import url("https://fonts.googleapis.com/css?family=XXXX:400,700");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap');
 
 /* -- font stefanos -- */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Montserrat+Subrayada:wght@700&display=swap');
@@ -79,12 +79,12 @@
 
 /* -- start sam -- */
 .term--sam {
-  font-family: "XXX", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
 }
 
 .term--sam .term__title {
-  font-weight: 700;
+  font-weight: 900;
 }
 /* -- end sam -- */
 
