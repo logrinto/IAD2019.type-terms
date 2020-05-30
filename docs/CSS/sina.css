@@ -22,6 +22,20 @@ font-style: italic;
 font-size: 130%;
 }
 
+h3 {
+  font-size: 600%;
+  font-weight: 700;
+  color: white;
+  letter-spacing: -0.02em;
+  line-height: 1.05em;
+  margin-top: 300px;
+
+}
+code{
+  color: cyan;
+  background-color: black;
+}
+
 .raster {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -44,7 +58,10 @@ font-size: 130%;
   ". . . . . ."
   "geviert geviert geviert geviert geviert geviert"
   ". . gevierttext gevierttext gevierttext ."
-
+  ". . . . . ."
+  "untersstrich untersstrich untersstrich untersstrich untersstrich untersstrich"
+  ". . untersstrichtext untersstrichtext untersstrichtext ."
+  ". . . . . ."
 }
 .titel {
   grid-area: titel;
@@ -124,4 +141,25 @@ font-style: normal;
 
 .gevierttext {
   grid-area: gevierttext;
+}
+
+.untersstrich {
+  grid-area: untersstrich;
+  font-size: 600%;
+  font-weight: 700;
+  color: cyan;
+  margin-left: -5%;
+  letter-spacing: -0.02em;
+  line-height: 1.05em;
+
+}
+
+.unterstrichtext {
+  grid-area: untersstrichtext;
+}
+
+.quellen{
+  background-color: black;
+  width: 100%;
+  height: 80vh;
 }
