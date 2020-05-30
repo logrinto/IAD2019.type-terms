@@ -65,9 +65,9 @@
 /* -- end samira -- */
 
 /* -- start stefanos -- */
-@import url("https://fonts.googleapis.com/css?family=XXXX:400,700");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@400;700&display=swap');
 .term--stefanos {
-  font-family: "XXX", sans-serif;
+  font-family: 'Montserrat Subrayada', sans-serif;
   font-weight: 400;
 }
 
