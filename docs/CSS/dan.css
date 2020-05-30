@@ -269,6 +269,12 @@ a {
   letter-spacing: 0.1em;
 }
 
+/* Navigation */
+
+.navigation {
+  z-index: 100;
+}
+
 /* Footer */
 
 .footer {
