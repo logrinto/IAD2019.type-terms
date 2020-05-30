@@ -1,0 +1,278 @@
+* {
+  box-sizing: border-box;
+}
+
+.raster{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+grid-auto-rows: minmax(200px, auto);
+grid-gap: 0px;
+}
+
+h1{
+font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 12vw;
+line-height: 100%;
+color: white
+}
+
+h2{
+font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 8vw;
+line-height: 100%;
+color: white
+}
+@media screen and (max-width: 50em) {
+  h2{
+    font-size: 9vw;}
+  }
+h3{
+  font-family: Fira Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 130px;
+  line-height: 120%;
+  text-align: center;
+  color: white;
+  font-variant-ligatures: discretionary-ligatures;
+}
+@media screen and (max-width: 50em) {
+  h3{
+    font-size: 35px;}
+  }
+
+h4{
+font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 56px;
+line-height: 120%;
+}
+@media screen and (max-width: 50em) {
+  h4{
+    font-size: 35px;}
+  }
+
+p{
+font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 120%;
+letter-spacing: 0.08em;
+color: white;
+padding: 6%;
+width: 78%;
+}
+@media screen and (max-width: 50em) {
+  p{
+    font-size: 15px;}
+  }
+
+.tabelleGS{
+  ont-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 120%;
+  letter-spacing: 0.01em;
+  color: black;
+}
+@media screen and (max-width: 50em) {
+  .tabelleGS{
+    font-size: 15px;}
+  }
+span{
+  font-variant-ligatures: none;
+}
+
+.titel{
+grid-area: 1/1/2/9;
+background-color: #EB5757;
+justify-items: center;
+display: inline-grid;
+}
+.titel2{
+grid-area: 4/1/5/6;
+background-color: #EB5757;
+justify-items: center;
+display: inline-grid;
+}
+
+.Bild1{
+  grid-area: 1/9/2/13;
+}
+
+.Blackbox1{
+  background-color: black;
+  display: inline-grid;
+  justify-items: center;
+  grid-area: 2/1/2/13;
+}
+.Blackbox2{
+  background-color: black;
+  display: inline-grid;
+  justify-items: center;
+  align-items: center;
+  grid-area: 4/6/5/13;
+}
+.Blackbox3{
+  background-color: black;
+  display: inline-grid;
+  justify-items: center;
+  align-items: center;
+  grid-area: 7/1/8/8;
+}
+.Blackbox4{
+  background-color: black;
+  display: inline-grid;
+  justify-items: center;
+  align-items: center;
+  grid-area: 8/5/9/13;
+}
+.Blackbox5{
+  background-color: black;
+  display: inline-grid;
+  justify-items: center;
+  align-items: center;
+  grid-area: 10/5/11/13;
+}
+.Blackbox6{
+  background-color: black;
+  display: inline-grid;
+  justify-items: center;
+  align-items: center;
+  grid-area: 13/1/14/8;
+}
+.Blackbox7{
+  background-color: black;
+  display: inline-grid;
+  justify-items: center;
+  align-items: center;
+  grid-area: 16/4/17/13;
+}
+@media screen and (max-width: 50em) {
+  .Blackbox7{
+    grid-area: 16/1/17/13;
+}}
+
+.sk{
+  grid-area: 3/1/4/7;
+}
+
+.Redbox1{
+  background-color: #EB5757;
+  grid-area: 3/7/4/13;
+  display: inline-grid;
+  justify-items: center;
+  align-items: center;
+}
+.Redbox2{
+  background-color: #EB5757;
+  grid-area: 6/1/7/13;
+  display: inline-grid;
+  justify-items: center;
+  align-items: center;
+}
+.Redbox3{
+  background-color: #EB5757;
+  grid-area: 8/1/9/5;
+  display: inline-grid;
+  justify-items: center;
+  align-items: center;
+}
+.Redbox4{
+  background-color: #EB5757;
+  grid-area: 10/1/11/5;
+  display: inline-grid;
+  justify-items: center;
+  align-items: center;
+}
+.Redbox5{
+  background-color: #EB5757;
+  grid-area: 12/1/13/13;
+  display: inline-grid;
+  justify-items: center;
+  align-items: center;
+}
+.Redbox6{
+  background-color: #EB5757;
+  grid-area: 15/1/16/13;
+  display: inline-grid;
+  justify-items: center;
+  align-items: center;
+}
+
+.ctck{
+  grid-area: 5/1/6/13;
+}
+
+.Lineal{
+grid-area: 7/8/8/13;
+display: inline-grid;
+justify-items: center;
+align-items: center;
+}
+
+.Beispiel1{
+  grid-area: 9/1/10/13;
+  display: inline-grid;
+  justify-items: center;
+  align-items: center;
+}
+.Beispiel2{
+  grid-area: 11/1/12/13;
+  display: inline-grid;
+  justify-items: center;
+  align-items: center;
+}
+
+.IconCSS{
+  grid-area: 13/8/14/13;
+  display: inline-grid;
+  justify-items: center;
+  align-items: center;
+}
+.Icon1{
+  height:50%;
+}
+@media screen and (max-width: 50em) {
+  .Icon1{
+    height:30%;
+}}
+
+.CSS{
+  grid-area: 14/1/15/13;
+}
+
+.Tabelle{
+  display: grid;
+  grid-template-columns: 1fr 5fr 6fr;
+  grid-auto-rows: minmax(50px, auto);
+  grid-gap: 0px;
+}
+.kopf{
+  grid-area: 1/2/2/4;
+}
+.a{
+  grid-area:2/2/3/4;
+}
+.b{
+  grid-area:3/2/4/4;
+}
+.c1{
+  grid-area:4/2/5/3;
+}
+.c2{
+  grid-area:4/3/5/4;
+}
+.d1{
+  grid-area:5/2/6/3;
+}
+.d2{
+  grid-area:5/3/6/4;
+}
