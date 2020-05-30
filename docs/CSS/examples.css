@@ -162,14 +162,14 @@
 /* -- end flavia -- */
 
 /* -- start cheyenne -- */
-@import url("https://fonts.googleapis.com/css?family=XXXX:400,700");
+@import url('https://rsms.me/inter/inter.css');
 .term--cheyenne {
-  font-family: "XXX", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 400;
 }
 
 .term--cheyenne .term__title {
-  font-weight: 700;
+  font-weight: 400;
 }
 /* -- end cheyenne -- */
 
