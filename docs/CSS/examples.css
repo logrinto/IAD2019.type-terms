@@ -47,14 +47,20 @@
 /* -- end sam -- */
 
 /* -- start samira -- */
-@import url("https://fonts.googleapis.com/css?family=XXXX:400,700");
+@font-face {
+    font-family: 'Manrope';
+    src: url('Manrope-Light.woff') format('woff'),
+     url('Manrope-Medium.woff') format('woff'),
+      url('Manrope-Bold.woff') format('woff');
+    }
+
 .term--samira {
-  font-family: "XXX", sans-serif;
-  font-weight: 400;
+  font-family:'Manrope-Light';
+  /*font-weight: 400;*/
 }
 
 .term--samira .term__title {
-  font-weight: 700;
+  font-family:'Manrope-Bold';
 }
 /* -- end samira -- */
 
@@ -167,13 +173,13 @@
 /* -- end cheyenne -- */
 
 /* -- start dominique -- */
-@import url("https://fonts.googleapis.com/css?family=XXXX:400,700");
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;800&display=swap');
 .term--dominique {
-  font-family: "XXX", sans-serif;
-  font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
 }
 
 .term--dominique .term__title {
-  font-weight: 700;
+  font-weight: 800;
 }
 /* -- end dominique -- */
