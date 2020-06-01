@@ -149,16 +149,26 @@ grid*/
 .Raleway {
   grid-column: 2 / 5;
   grid-row: 11 / 12;
+  background: white;
+  z-index: 99;
+}
+
+.whitebox {
+  grid-column: 1 / -1;
+  grid-row: 11 / 14;
+  background: white;
 }
 
 .Raleway_Beschrieb {
   grid-column: 3 / 5;
   grid-row: 12 / 13;
+  background: white;
 }
 
 .Raleway_Bild {
   grid-column: 1 / 6;
   grid-row: 13 / 14;
+  background: white;
 }
 
 .Raleway_Bild img {
