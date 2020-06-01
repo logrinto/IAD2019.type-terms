@@ -82,13 +82,14 @@
       grid-template-columns: 0.7fr repeat(6, 1fr) 0.7fr;
       /* grid-template-rows: 500px 100px 1fr 50px 1fr 1fr 50px 1fr 100px 1fr; */
       grid-row-gap: 2.7em;
-      grid-column-gap: 1em;
+      grid-column-gap: 0.2em;
       grid-template-areas: 
       "header header header header header header header header" 
       ". . . . . . . . "
       ". content1 content1 content1 content1 . . ."
       ". . . . . . . . "
-      ". content2 content2 content2 content2 content2 content2 ."
+      ". content2a content2a content2a content2b content2b content2b ."
+      ". content2text content2text content2text content2text content2text content2text ."
       ". . . . . . . . "
       "content3 content3 content3 content3 content3 content3 content3 content3"
       ". . . . . . . . "
@@ -123,12 +124,18 @@
       /* border: 1px white solid; */
     }
 
-    .content2 {
-      grid-area: content2;
+    .content2a {
+      grid-area: content2a;
+      /* border: 1px white solid; */
+    }
+    .content2b {
+      grid-area: content2b;
       /* border: 1px white solid; */
     }
 
-    .content2-text {
+
+    .content2text {
+      grid-area: content2text;
       padding-right: 35%;
     }
 
@@ -149,6 +156,9 @@
 
     .content4 {
       grid-area: content4;
+    }
+    .content4 p {
+      padding-right: 1.2em;
     }
 
     .content5 {
