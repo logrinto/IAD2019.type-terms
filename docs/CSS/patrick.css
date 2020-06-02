@@ -43,28 +43,28 @@
 }
 
 .fliesstext {
-  font-size: 1.2em;
-  font-family: 'Lora', serif;
+  font-size: 1.2rem;
+  font-family: 'Lora', sans-serif;
   font-weight:400;
   color: #474545;
-  line-height: 1.8rem;
-  letter-spacing: 0.03rem;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
   margin-bottom: 3rem;
 }
 
 .subtitle {
-  font-size: 1.3em;
-  font-family: 'Lora', serif;
+  font-size: 1.3rem;
+  font-family: 'Lora', sans-serif;
   font-weight:700;
   color: #474545;
 }
 
 .bildlegende {
-  font-size: 1em;
+  font-size: 1rem;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   /* font-style: oblique; */
-  line-height: 1.5em;
+  line-height: 1.4;
   letter-spacing: 0.03em;
   color: #4f4f4f;
   /* color: #7a59e4; */
@@ -72,10 +72,17 @@
 }
 
 a {
-  font-size: 1.2em;
-  font-family: 'Lora', serif;
+  font-size: 1.2rem;
+  font-family: 'Lora', sans-serif;
   font-weight:400;
   /* margin-bottom: 0.2rem; */
+}
+
+code {
+ font-family: 'Lora', sans-serif;
+ font-weight:400;
+ font-size: 1.2rem;
+ line-height: 1.5;
 }
 
 a:hover {
