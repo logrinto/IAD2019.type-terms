@@ -68,7 +68,7 @@ grid*/
   width: 100%;
   margin: 0;
   display: grid;
-  grid-template-columns: 25vw 5vw 20vw 20vw 30vw;
+  grid-template-columns: 2.5fr 0.5fr 2fr 2fr 3fr;
   grid-auto-rows: min-content;
   grid-gap: 20px;
 }
@@ -108,9 +108,16 @@ grid*/
   width: 100%;
 }
 
+.whiteboxanw {
+  grid-column: 1 / -1;
+  grid-row: 7 / 9;
+  background: white;
+}
+
 .Anwendung {
   grid-column: 2 / 5;
   grid-row: 7 / 8;
+  z-index: 98;
 }
 
 .Minuskel {
@@ -149,16 +156,26 @@ grid*/
 .Raleway {
   grid-column: 2 / 5;
   grid-row: 11 / 12;
+  background: white;
+  z-index: 99;
+}
+
+.whitebox {
+  grid-column: 1 / -1;
+  grid-row: 11 / 14;
+  background: white;
 }
 
 .Raleway_Beschrieb {
   grid-column: 3 / 5;
   grid-row: 12 / 13;
+  background: white;
 }
 
 .Raleway_Bild {
   grid-column: 1 / 6;
   grid-row: 13 / 14;
+  background: white;
 }
 
 .Raleway_Bild img {
