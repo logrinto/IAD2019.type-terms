@@ -25,6 +25,59 @@ header {
   position: relative;
 }
 
+p {
+  font-size: 1rem;
+  letter-spacing: 0.05rem;
+  color: black;
+  padding-left: 170px;
+  font-weight: lighter;
+  width: 800px;
+  margin: auto;
+}
+
+
+h5 {
+  line-height: 120%;
+  font-size: 1.7rem;
+  color: black;
+  letter-spacing: 0.2rem;
+  font-weight: lighter;
+  text-align: right;
+}
+
+h6 {
+  font-size: 1rem;
+  letter-spacing: 0.05rem;
+  color: black;
+  padding-left: 170px;
+  font-weight: bolder;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  width: 800px;
+  margin: auto;
+}
+
+
+.name h1 {
+  padding-top: 30px;
+  text-align: right;
+  letter-spacing: 0.2rem;
+  padding-left: 50px;
+  color: white;
+  font-weight: lighter;
+  font-size: 0.8rem;
+}
+
+.name a {
+  font-size: 0.8rem;
+  letter-spacing: 0.2rem;
+  color: white;
+  text-align: right;
+  padding-right: 50px;
+  font-weight: lighter;
+  padding-top: 30px;
+}
+
 .header h1 {
   padding-top: 1rem;
   font-size: 10rem;
@@ -62,16 +115,16 @@ header {
   }
 }
 
-/*.header h6 {
-  font-size: 10rem;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black;
-  letter-spacing: 0.2rem;
+.header h2 {
   text-align: center;
+  letter-spacing: 0.2rem;
+  color: black;
+  padding-top: 30px;
+  font-size: 1.5rem;
   font-weight: lighter;
-  margin: auto;
-  z-index: 1;
-} */
+}
+
+
 
 article {
   display: flex;
@@ -93,94 +146,22 @@ article:hover {
 }
 
 
-
-p {
-  font-size: 1rem;
-  letter-spacing: 0.05rem;
-  color: black;
-  padding-left: 170px;
-  font-weight: lighter;
-  width: 800px;
-  margin: auto;
+.piss {
+  letter-spacing: 0.5rem;
 }
 
-a {
-  font-size: 1rem;
-  letter-spacing: 0.05rem;
-  color: black;
-  padding-left: 170px;
-  font-weight: lighter;
-  width: 800px;
-  margin: auto;
+.friends {
+  letter-spacing: -0.1rem;
 }
 
-h2 {
-  line-height: 120%;
-  font-size: 1.7rem;
-  color: black;
+.give {
   letter-spacing: 0.2rem;
-  font-weight: lighter;
-  text-align: center;
 }
 
-h3 {
-  line-height: 120%;
-  font-size: 1.7rem;
-  color: black;
-  letter-spacing: -0.2rem;
-  font-weight: lighter;
-  text-align: left;
+.migraine {
+  letter-spacing: 1rem;
 }
 
-h4 {
-  line-height:80%;
-  font-size: 1.7rem;
-  color: black;
-  letter-spacing: 2rem;
-  font-weight: lighter;
-  text-align: left;
-}
-
-h5 {
-  line-height: 120%;
-  font-size: 1.7rem;
-  color: black;
-  letter-spacing: 0.2rem;
-  font-weight: lighter;
-  text-align: right;
-}
-
-h6 {
-  font-size: 1rem;
-  letter-spacing: 0.05rem;
-  color: black;
-  text-align: left;
-  font-weight: bolder;
-  width: 800px;
-  margin: auto;
-  padding-top: 20px;
-  padding-bottom: 10px;
-  padding-left: 170px;
-}
-
-.name h2 {
-  text-align: right;
-  font-weight: lighter;
-  letter-spacing: 0.2rem;
-  padding-right: 50px;
-  color: white;
-  padding-top: 50px;
-  font-size: 0.8rem;
-}
-
-.name h1 {
-  text-align: left;
-  letter-spacing: 0.2rem;
-  padding-left: 50px;
-  color: white;
-  font-weight: lighter;
-  font-size: 0.8rem;
-}
 
 
 .gruppe h1 {
@@ -189,27 +170,87 @@ h6 {
   color: black;
   margin-left: 70px;
   font-weight: lighter;
-  background-image: linear-gradient(120deg, #E588FF 0%, #54E9FF 100%);
-  background-repeat: no-repeat;
-  background-size: 7.3rem 0.3em;
-  background-position: 0 88%;
-  transition: background-size 0.25s ease-in;
-  &:hover {
-    background-size: 100% 88%;
 }
 
+.special {
+  background-image: linear-gradient(120deg, #E588FF 0%, #54E9FF 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.3em;
+  background-position: 0 88%;
+}
+
+.playfair {
+
+  background-image: linear-gradient(120deg, #E588FF 0%, #54E9FF 100%);
+  background-repeat: no-repeat;
+  background-size: 14rem 0.3em;
+  background-position: 0 88%;
+}
+
+.schriftfam {
+
+  background-image: linear-gradient(120deg, #E588FF 0%, #54E9FF 100%);
+  background-repeat: no-repeat;
+  background-size: 14rem 0.3em;
+  background-position: 0 88%;
+}
+
+.glyphen {
+
+  background-image: linear-gradient(120deg, #E588FF 0%, #54E9FF 100%);
+  background-repeat: no-repeat;
+  background-size: 14rem 0.3em;
+  background-position: 0 88%;
+}
+
+.quellen {
+
+  background-image: linear-gradient(120deg, #E588FF 0%, #54E9FF 100%);
+  background-repeat: no-repeat;
+  background-size: 14rem 0.3em;
+  background-position: 0 88%;
+}
 
 section {
   width: 100vw;
 }
 
 .schriftfamilie img {
-  width: 31.333%;
-  margin-left: 100px;
+  width: 800px;
   display: grid;
+  padding-left: 170px;
+  margin: auto;
+}
+
+ol {
+  width: 800px;
+  display: grid;
+  padding-left: 170px;
+  margin: auto;
+  list-style-type: circle;
+  color: black;
+  padding-bottom: 150px;
+  text-decoration: none;
+}
+a {
+  color: #906CFF;
+  line-height: 1.4rem;
+}
+a:hover {
+  color: #64F5FF;
+}
+
+.h4 {
+  text-align: center;
+  font-weight: lighter;
+  margin: auto;
+  position: relative;
 }
 
 }
+
+
+
 @media only screen and (max-width: 600px) {
 
   header {
