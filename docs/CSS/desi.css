@@ -167,6 +167,11 @@ display: inline-grid;
   align-items: center;
   grid-area: 13/1/14/8;
 }
+@media screen and (max-width: 50em){
+  .Blackbox6{
+    grid-area: 13/1/14/10;
+  }
+}
 .Blackbox7{
   background-color: black;
   display: inline-grid;
@@ -270,6 +275,10 @@ align-items: center;
   justify-items: center;
   align-items: center;
 }
+@media screen and (max-width: 50em) {
+  .IconCSS{
+    grid-area: 13/10/14/13;
+}}
 .Icon1{
   height:50%;
 }
