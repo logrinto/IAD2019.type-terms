@@ -39,7 +39,7 @@ code{
 .raster {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: 800px 600px 900px 1fr 1fr 800px 300px 100px 1000px 300px 100px 800px 300px;
+  grid-template-rows: 800px 600px 900px 1fr 1fr 800px 300px 100px 1000px 300px 100px 800px 300px 100px 1200px;
   grid-gap: 20px;
   margin-left: 4%;
   margin-right: 4%;
@@ -62,6 +62,7 @@ code{
   "untersstrich untersstrich untersstrich untersstrich untersstrich untersstrich"
   ". . untersstrichtext untersstrichtext untersstrichtext ."
   ". . . . . ."
+  "quellen quellen quellen quellen . ."
 }
 .titel {
   grid-area: titel;
@@ -106,7 +107,6 @@ font-style: normal;
   margin-left: -5%;
   letter-spacing: -0.02em;
   line-height: 1.05em;
-
 }
 
 .divistext {
@@ -121,7 +121,6 @@ font-style: normal;
   margin-left: -5%;
   letter-spacing: -0.02em;
   line-height: 1.05em;
-
 }
 
 .gedankenstrichtext {
@@ -136,7 +135,6 @@ font-style: normal;
   margin-left: -5%;
   letter-spacing: -0.02em;
   line-height: 1.05em;
-
 }
 
 .gevierttext {
@@ -151,15 +149,111 @@ font-style: normal;
   margin-left: -5%;
   letter-spacing: -0.02em;
   line-height: 1.05em;
-
 }
 
 .unterstrichtext {
   grid-area: untersstrichtext;
 }
 
-.quellen{
-  background-color: black;
-  width: 100%;
-  height: 80vh;
+.quellen {
+  grid-area: quellen;
+
 }
+
+
+/*_______________________________________________*/
+
+
+@media all and (max-width: 39em) /*mobil*/ {
+
+  html{
+  font-size: 14px;
+  }
+
+  h1 {
+  font-family: noto-sans, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 130%;
+  }
+
+  .raster {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 400px 600px 500px 1fr 1fr 800px 900px 100px 1200px 150px 60px 500px 300px 60px 1100px;
+    grid-gap: 20px;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 2%;
+
+    grid-template-areas:
+    "titel titel titel titel titel titel"
+    "einleitung einleitung einleitung einleitung einleitung ."
+    ". wasgibts wasgibts wasgibts wasgibts wasgibts"
+    ". uebersicht uebersicht uebersicht uebersicht uebersicht"
+    "divistitel divistitel divistitel divistitel divistitel divistitel"
+    ". . divistext divistext divistext divistext"
+    ". . . . . ."
+    "gedankenstrich gedankenstrich gedankenstrich gedankenstrich gedankenstrich gedankenstrich"
+    ". . gedankenstrichtext gedankenstrichtext gedankenstrichtext gedankenstrichtext"
+    ". . . . . ."
+    "geviert geviert geviert geviert geviert geviert"
+    ". . gevierttext gevierttext gevierttext gevierttext"
+    ". . . . . ."
+    "untersstrich untersstrich untersstrich untersstrich untersstrich untersstrich"
+    ". . untersstrichtext untersstrichtext untersstrichtext untersstrichtext"
+    ". . . . . ."
+    "quellen quellen quellen quellen quellen quellen"
+
+    }
+
+    .titel {
+    grid-area: titel;
+    grid-template-rows: 300px;
+    font-size: 400%;
+    line-height: 1.06em;
+    letter-spacing: 0.02em;
+    font-weight: 700;
+    font-style: normal;
+    text-align: start;
+  }
+
+  .divistitel {
+    grid-area: divistitel;
+    font-size: 300%;
+    font-weight: 700;
+    color: cyan;
+    margin-left: -5%;
+    letter-spacing: -0.02em;
+    line-height: 1.05em;
+  }
+
+  .gedankenstrich {
+    grid-area: gedankenstrich;
+    font-size: 300%;
+    font-weight: 700;
+    color: cyan;
+    margin-left: -5%;
+    letter-spacing: -0.02em;
+    line-height: 1.05em;
+  }
+
+  .geviert {
+    grid-area: geviert;
+    font-size: 300%;
+    font-weight: 700;
+    color: cyan;
+    margin-left: -5%;
+    letter-spacing: -0.02em;
+    line-height: 1.05em;
+  }
+
+  .untersstrich {
+    grid-area: untersstrich;
+    font-size: 300%;
+    font-weight: 700;
+    color: cyan;
+    margin-left: -5%;
+    letter-spacing: -0.02em;
+    line-height: 1.05em;
+  }
