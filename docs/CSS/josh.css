@@ -91,6 +91,9 @@
       ". content2a content2a content2a content2b content2b content2b ."
       ". content2text content2text content2text content2text content2text content2text ."
       ". . . . . . . . "
+      ". content6text content6text content6text content6text content6text content6text ."
+      ". content6a content6a content6a content6b content6b content6b ."
+      ". . . . . . . . "
       "content3 content3 content3 content3 content3 content3 content3 content3"
       ". . . . . . . . "
       ". content4 content4 content4 content5 content5 content5 ."
@@ -163,4 +166,17 @@
 
     .content5 {
       grid-area: content5;
+    }
+
+    .content6a {
+      grid-area: content6a;
+    }
+
+    .content6b {
+      grid-area: content6b;
+    }
+
+    .content6text {
+      grid-area: content6text;
+      padding-right: 35%;
     }
