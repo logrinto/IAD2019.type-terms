@@ -101,11 +101,11 @@ h6 {
 
 @keyframes header {
   0% {
-    letter-spacing: 5rem;
+    letter-spacing: 2rem;
   }
 
   25% {
-    letter-spacing: 30rem;
+    letter-spacing: 5rem;
   }
 
 
@@ -251,7 +251,7 @@ a:hover {
 
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
 
   header {
     background: black;
