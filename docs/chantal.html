@@ -2,42 +2,153 @@
 <html lang="de">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="./css/normalize.css"/>
-    <link rel="stylesheet" type="text/css" href="./css/chantal.css">
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
-    <title>Strichstärke</title>
+    <title>Strichstärken</title>
+    <link rel="stylesheet" href="./CSS/main.css" />
+    <link rel="stylesheet" href="./CSS/examples.css" />
+    <script src="./js/main.js"></script>
+    <link rel="stylesheet" type="text/css" href="./CSS/chantal.css">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" >
     </head>
 
   <body>
-    <h1>Strichstärken</h1>
-<p>Die Bezeichnung &laquo;Strichstärke&raquo; findet ihren Ursprung in der Kalligraphie. Durch eine Schrägstellung der Schreibfeder gegenüber dem Grundstrich, entstanden &laquo;Aufstriche&raquo; mit unterschiedlichen Strichstärken (Kontrast), welche als Haarstrich bezeichnet wurden. Bei gebrochenen Schriften und vielen Dekorschriften (z.B. Bodoni, Broadway) ist die Betonung des Kontrastes ein häufiges Stilmittel (Abb. 1).
-<br>
-<br>
-Zu Beginn des Buchdrucks orientierte sich die Typografie stark an den handgeschriebenen Formen der Buchstaben. Diese Eigenheit des Strichstärkenkontrastes wurde danach für lange Zeit von Beginn an beim Entwurf der Satzschriftarten nachgeahmt. Mit der Digitalisierung der Schriften kamen vermehrt lineare Strichstärken mit gleichbleibend starken Grundstrichen (Abb. 2) zum Einsatz.
-<br>
-<br>
-Schriftfamilien sind in der Regel in verschiedenen Strichstärken (englisch: weights) ausgebaut. Z.B. <i>leicht</i>, <i>normal</i>, <i>fett</i> oder <i>extrafett</i>. Diese Bezeichnungen werden jedoch je nach Schriftart sehr uneinheitlich verwendet (Abb. 3). Für Lesetexte darf die Strichstärke weder zu fein sein, damit ausreichender Kontrast zum Untergrund gewährleistet ist, noch zu fett, da sonst die Punzen (Innenfläche eines Buchstabens) zu klein werden.
-<br>
-<br>
-Mit CSS und HTML erfolgt die Definition der Strichstärke über die Dicke und Stärke einer Schrift. Mit der Eigenschaft &laquo;font-weight&raquo; wird bestimmst wie dick (fett) und stark eine Schrift angezeigt werden soll. Für gewöhnlich nutzt man &laquo;bold&raquo; für eine fette oder &laquo;normal&raquo; für eine reguläre Schrift. Je nach Schrift kann die Strichstärke aber noch genauer festgelegt werden. Dies geschieht mit Zahlenwerten wie z.B. &laquo;font-weight: 200&raquo; oder &laquo;normal; 100&raquo;
-<br>
-<ul>
-Folgende Angaben sind möglich:
-<li>lighter = dünner als im Elternelement</li>
-<li>normal = normale Strichstärke</li>
-<li>bold = fett</li>
-<li>bolder = fetter als im Elternelement</li>
-<li>100, 200, … , 900 = extra-dünn (100) bis extrafett (900)</li>
-<li>inherit = Strichstärke des Elternelements</li>
-</ul>
-</p>
+  <section class="wrapper">
 
-<h2>Quellen</h2>
-<ul>
-  <li><a target="_blank" href="https://de.wikipedia.org/wiki/Strichst%C3%A4rke">https://de.wikipedia.org/wiki/Strichst%C3%A4rke</a></li>
-  <li><a target="_blank" href="https://www.leserlich.info/kapitel/zeichen/strichstaerke.php">https://www.leserlich.info/kapitel/zeichen/strichstaerke.php</a></li>
-  <li><a target="_blank" href="https://wiki.selfhtml.org/wiki/CSS/Eigenschaften/Schriftformatierung/font-weight">https://wiki.selfhtml.org/wiki/CSS/Eigenschaften/Schriftformatierung/font-weight</a></li>
-</ul>
+  <div class="header bild_beschriftung">
+    <span>Strichstärke</span>
+    <img src="./Links/chantal/Headerbild_transparent.png" alt="header"></img>
+  </div>
+
+  <div class="box sidebar">
+    <h2>Ursprung</h2>
+  </div>
+
+  <div class="box content">
+      <p>Die Bezeichnung «Strichstärke» findet ihren Ursprung in der Kalligraphie. Durch eine Schrägstellung der Schreibfeder gegenüber dem Grundstrich, entstanden «Aufstriche» mit unterschiedlichen Strichstärken (Kontrast), welche als Haarstrich bezeichnet wurden. Bei gebrochenen Schriften und vielen Dekorschriften (z.B. Bodoni, Broadway) ist die Betonung des Kontrastes ein häufiges Stilmittel (Abb. 1).
+        <br>
+        <br>
+        Zusammen mit den Entwicklungen in der Drucktechnik, der Tinte und der Papierherstellung wurden kontrastreiche Buchstabenformen mit zarten Haarlinien gedruckt, die sich zunehmend von den geschriebenen Buchstabenformen ablösten. Mit der Digitalisierung der Schriften kamen immer häufiger lineare Strichstärken mit ungefähr gleichbleibend starken Grundstrichen (Abb. 2) zum Einsatz.</p>
+  </div>
+
+  <div class="box sidebar2">
+        <img src="./Links/chantal/Auf-Abstrich.png" alt="Auf- und Abstrich" class="bild"></img>
+        <figcaption>Abb. 1 – betonter Kontrast</figcaption>
+        <br>
+        <img src="./Links/chantal/gleiche_Dicke.png" alt="gleich bleibende Dicke" class="bild"></img>
+        <figcaption>Abb. 2 – gleichbleibender Grund-/Haarstrich </figcaption>
+  </div>
+</section>
+
+
+<section class="wrapper">
+
+<div class="box sidebar">
+  <h2>Theorie</h2>
+</div>
+
+<div class="box content">
+    <p>Eine dickere Schrift betont innerhalb eines Textes einzelne Wörter, während die Strichbreite der Schrift – durch fett gesetzte Überschriften – die Hierarchie im Design der Seite wiederspiegelt.
+      <br>
+      <br>
+      Schriftfamilien sind in der Regel in verschiedenen Strichstärken (englisch: font-weight) ausgebaut, z.B. leicht, normal, fett oder extrafett. Diese Bezeichnungen werden jedoch je nach Schriftart sehr uneinheitlich verwendet (Abb. 3+4). Für Lesetexte darf die Strichstärke weder zu fein sein, damit ausreichender Kontrast zum Untergrund gewährleistet ist, noch zu fett, da sonst die Punzen (Innenfläche eines Buchstabens) zu klein werden. </p>
+</div>
+
+<div class="box sidebar2">
+      <img src="./Links/chantal/Schnitte_Helvetica-Neue.png" alt="Schriftstärken" class="bild"></img>
+      <figcaption>Abb. 3 – Helvetica Neue mit vordefinierten Schriftschnitten</figcaption>
+      <br>
+      <img src="./Links/chantal/Schnitte_Roboto.png" alt="Schriftstärken" class="bild"></img>
+      <figcaption>Abb. 4 – Roboto arbeitet mit Zahlenwerten</figcaption>
+</div>
+</section>
+
+<section class="wrapper">
+
+<div class="box sidebar">
+  <h2>CSS & HTML</h2>
+</div>
+
+<div class="box content">
+    <p>Auch hier bezeichnet die Strichstärke die Dicke und Stärke einer Schrift. Mit der Property «font-weight» wird bestimmst wie dick (fett) und stark eine Schrift angezeigt werden soll. Meist wird der Befehl «bold» für eine fette und «normal» für eine reguläre Schrift benutzt. Je nach Schrift kann die Strichstärke aber noch genauer festgelegt werden. Dies geschieht dann mit Zahlenwerten – z.B. mit <code>font-weight: 320;</code> </p>
+    <br>
+<p>Folgende Properties sind möglich:
+  <p><code>font-weight: lighter;</code><br>= dünner als im Elternelement</p>
+<p><code>font-weight: normal;</code><br>= normale Strichstärke</p>
+<p><code>font-weight: bold;</code><br>= fett</p>
+<p><code>font-weight: bolder;</code><br>= fetter als im Elternelement</p>
+<p><code>font-weight: 100,200, … ,900;</code><br>= Thin (100) bis Black (900)</p>
+<p><code>font-weight: inherit;</code><br>= Strichstärke des Elternelements</p>
+</div>
+
+<div class="box sidebar2">
+      <img src="./Links/chantal/Vergroesserung.png" alt="proportionale Vergrösserung" class="bild"></img>
+      <figcaption>Abb. 5 – "font-weight" = Mass für die Strichbreite einer Schrift</figcaption>
+</div>
+</section>
+
+<section class="wrapper">
+
+<div class="box sidebar">
+  <h2>Work Sans</h2>
+</div>
+
+<div class="box content">
+    <p> Bei der Work Sans handelt es sich um eine Schriftfamilie in Anlehnung früher Groteskschriften (z.B. Bauerschen Giesserei), welche vom – in China geborenen – australischen Typografie-Designer Wei Huang kreiert wurde.
+      <br>
+      <br>
+      Er entwirft und produziert Schriften, gibt Unterricht und stellt seine Arbeiten aus. Für Huang fühlt sich das Zeichnen von Schriften wie Meditation an. Die Work Sans wurde für den Druck als auch für die Online-Anwendung optimiert (Abb. 6). Sie in neun Strichstärken erhältlich und wurde 2018 mit kursiven Schnitten ergänzt.
+</p>
+      </div>
+
+      <div class="box sidebar2">
+        <img src="./Links/chantal/Playfair-Display.gif" alt="Work Sans" class="bild"></img>
+      <figcaption>Abb. 6 – Work Sans in all ihren Schnitten</figcaption>
+    </div>
+</section>
+
+
+<section class="wrapper">
+
+<div class="box sidebar">
+  <h2>Quellen</h2>
+</div>
+
+<div class="box content">
+      <ul style="list-style-type:square">
+          <li><a target="_blank" rel="noopener noreferrer" href="https://de.wikipedia.org/wiki/Strichst%C3%A4rke" style="text-decoration: none;">Wikipedia: Strichstärke</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://www.leserlich.info/kapitel/zeichen/strichstaerke.php" style="text-decoration: none;">Kapitel Strichstärke auf "leserlich.info"</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://wiki.selfhtml.org/wiki/CSS/Eigenschaften/Schriftformatierung/font-weight" style="text-decoration: none;">Kapitel font-weight auf "wiki.selfhtml.org"</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://fonts.google.com/specimen/Work+Sans?query=work+sans#standard-styles" style="text-decoration: none;">Google Fonts</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://www.typografie.info/3/Schriften/fonts.html/work-sans-r1149/" style="text-decoration: none;">Font-Wiki</a></li>
+      </ul>
+
+</div>
+</section>
+
+
+<!-- start navigation -->
+<div class="navigation">
+
+  <div class="navigation--inner">
+    <div class="navigation--menu" id="site-navigation">
+      <nav class="menu">
+        CONTENT
+      </nav>
+    </div>
+  </div>
+  <button
+    class="navigation--toggle"
+    aria-controls="site-navigation"
+    aria-expanded="true"
+    aria-label="Menu"
+  >
+    <span class="navigation--hamburger close"
+      ><span class="navigation--label">Hauptmenü</span></span
+    >
+  </button>
+</div>
+<!-- end navigation -->
+
 
   </body>
 </html>
