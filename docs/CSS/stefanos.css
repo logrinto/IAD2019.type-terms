@@ -1,8 +1,14 @@
 body {
   font-family: 'Montserrat', sans-serif;
   background: white;
-  margin: 0 auto;
+  margin: 0;
   hyphens: auto;
+}
+
+html {
+  font-size: 17px;
+  line-height: 26px;
+  color: black;
 }
 
 div {
@@ -10,12 +16,6 @@ div {
   margin: 0 auto;
   padding-top: 2em;
   padding-bottom: 2em;
-}
-
-html {
-  font-size: 17px;
-  line-height: 26px;
-  color: black;
 }
 
 code {
@@ -43,6 +43,12 @@ h2 {
 
 p {
 }
+
+.navibreite {
+  max-width: 100rem;
+  margin: 0 auto;
+}
+
 
 @media screen and (max-width: 1024px) {
   body {
