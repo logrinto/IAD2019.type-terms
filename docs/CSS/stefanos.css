@@ -1,21 +1,21 @@
 body {
   font-family: 'Montserrat', sans-serif;
   background: white;
-  margin: 0 auto;
-  padding: 0;
-}
-/* test */
-div {
-  padding-left: 30em;
-  padding-right: 30em;
-  padding-top: 2em;
-  padding-bottom: 2em;
+  margin: 0;
+  hyphens: auto;
 }
 
 html {
   font-size: 17px;
   line-height: 26px;
   color: black;
+}
+
+div {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 
 code {
@@ -44,9 +44,15 @@ h2 {
 p {
 }
 
+.navibreite {
+  max-width: 100rem;
+  margin: 0 auto;
+}
+
+
 @media screen and (max-width: 1024px) {
   body {
-    margin: 10px;
+    margin: 0 auto;
     }
     div {
       padding-left: 2em;
@@ -121,7 +127,6 @@ i {
 }
 
 /* ---- Ende Scroll bar ---- */
-
 
 
 /* ---- Links ---- */

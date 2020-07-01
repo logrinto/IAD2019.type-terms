@@ -11,6 +11,10 @@
 <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500;700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&display=swap" rel="stylesheet">
 
+<link rel="stylesheet" href="./CSS/main.css" />
+<link rel="stylesheet" href="./CSS/examples.css" />
+<script src="./js/main.js"></script>
+
   </head>
 
   <body>
@@ -83,27 +87,56 @@ Text- und Bildquellen:
 
 <br>
 <br>
+
 <p class="subtitle">
 Meine Schriftwahl: «Lora»
 </p>
+
+
 <p class="fliesstext">
-  .fliesstext {<br>
-  font-size: 1.2em;<br>
-  font-family: 'Lora', serif;<br>
-  font-weight:400;<br>
-  color: #474545;<br>
-  line-height: 1.8rem;<br>
-  letter-spacing: 0.03rem;<br>
-  margin-bottom: 3rem;<br>
-  }
-  <br>
-  <br>
 Lora ist eine ausgewogene zeitgenössische Serife mit Wurzeln in der Kalligraphie. Es ist eine Textschrift mit mässigem Kontrast, die sich gut für Fliesstext eignet.
 Ein Absatz, der in Lora gesetzt ist, wirkt durch seine gebürsteten Kurven im Gegensatz zu den treibenden Serifen einprägsam.
 Technisch gesehen ist Lora für die Bildschirmdarstellung optimiert und funktioniert ebenso gut im Druck.
-
-
 </p>
+
+<code>
+<pre>
+  .fliesstext {
+    font-size: 1.2rem;
+    font-family: 'Lora', sans-serif;
+    font-weight:400;
+    color: #474545;
+    line-height: 1.5;
+    letter-spacing: 0.03em;
+    margin-bottom: 3rem;
+  }
+</pre>
+</code>
+
+  <br>
+
+<!-- start navigation -->
+<div class="navigation">
+
+  <div class="navigation--inner">
+    <div class="navigation--menu" id="site-navigation">
+      <nav class="menu">
+        CONTENT
+      </nav>
+    </div>
+  </div>
+  <button
+    class="navigation--toggle"
+    aria-controls="site-navigation"
+    aria-expanded="true"
+    aria-label="Menu"
+  >
+    <span class="navigation--hamburger close"
+      ><span class="navigation--label">Hauptmenü</span></span
+    >
+  </button>
+</div>
+<!-- end navigation -->
 
   </body>
 </html>
