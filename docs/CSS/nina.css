@@ -161,6 +161,8 @@ span {
   display: none;
 }
 
+/* Mediaquery */
+
 @media all and (max-width: 40em) {
   #desktop {
     display: none;
