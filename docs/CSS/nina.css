@@ -16,7 +16,6 @@ html {
   margin-left: auto;
   margin-right: auto;
   margin-top: 10vmin;
-  /* background-color: lightgrey; */
 }
 
 .abstand {
@@ -40,8 +39,6 @@ h1 {
   text-align: right;
   text-transform: uppercase;
   hyphens: auto;
-  /* text-decoration: underline 0.08em solid; */
-  /* margin-bottom: 0.2em; */
   margin-top: 1vw;
   margin-bottom: -1.15vw;
   margin-right: 2vw;
@@ -58,16 +55,12 @@ h2 {
   margin-top: 4vw;
   margin-bottom: -0.5vw;
   margin-left: 2vw;
-  /* margin-bottom: 5em;
-  text-decoration: underline 0.1em solid; */
 }
 
 h3 {
   font-size: 2rem;
   font-weight: 800;
   line-height: 1.2em;
-  /* text-transform: uppercase; */
-  /* hyphens: auto; */
   margin-bottom: 1em;
 }
 
@@ -76,7 +69,6 @@ h4 {
   font-weight: 800;
   letter-spacing: 0.01em;
   line-height: 1.2em;
-  /* text-transform: uppercase; */
   hyphens: auto;
   margin-bottom: 1em;
 }
@@ -127,14 +119,12 @@ a {
 
 .bild_breit {
   width: 90vw;
-  /* display: block; */
   margin-left: auto;
   margin-right: auto;
 }
 
 .bild_schmaler {
   width: 64vw;
-  /* display: block; */
   margin-left: auto;
   margin-right: auto;
 }
