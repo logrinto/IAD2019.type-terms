@@ -35,12 +35,15 @@ h3{
 	font-family: 'Manrope-Light';
 	font-size: 1.3em;
 	margin-top: 1em;
+	color: #0A5243;
 
 	}
 
 p{
 	font-size: 1.3em;
 	color: #505957;
+	
+
 
 }
 
@@ -52,7 +55,7 @@ p.weiss{
 h6{
 	font-size: 0.4em;
 	 padding-top: 0.8em;
-	 color: #505957;
+	 color: #fff;
 
 }
 img{
@@ -69,6 +72,7 @@ img{
    justify-content:left;
    /*padding-top: 0.8em;
 	padding-bottom: 0.8em;*/
+
 }
 
 
@@ -84,8 +88,8 @@ img{
    margin: 1em auto; 
    align-items:center;
    justify-content:left;
-   padding-top: 1.6em;
-	padding-bottom: 1.6em;
+   padding-top: 2em;
+	padding-bottom: 2em;
 
 }
 
@@ -93,6 +97,7 @@ table {
     border-collapse: collapse;
     width: 100%;
      /*background-color: red;*/
+     padding-bottom: 2em;
 }
 
 
@@ -112,11 +117,26 @@ td, th {
 .backgroundcolor{
 
 	background-color:  #0A5243;
-	padding-top: 0.8em;
-	padding-bottom: 0.8em;
+	padding-top: 2em;
+	padding-bottom: 2em;
 
 
 }
+
+.grundraster{
+            display:grid;
+            grid-template-columns: repeat(12, 1fr);
+            grid-template-rows: repeat(12, 1fr);
+            height:100vh;
+        }
+
+/*.position{
+  grid-column: 3/11;
+  grid-row: 2/11;
+  align-self:center;
+
+}*/
+
 
 .Beispiela{
 	display: grid;
@@ -132,9 +152,9 @@ td, th {
 	font-family: 'Manrope-Light';
 	font-size: 2.5em;
    text-align: center;
-	border: 1px solid #505957;
+	border: 1px solid #fff;
 	padding: 2em;
-	color: #0A5243;
+	color: #fff;
 }
 
 .Bold{
@@ -142,9 +162,9 @@ td, th {
 	font-family: 'Manrope-Bold';
 	font-size: 2.5em;
 	text-align: center;
-	border: 1px solid #505957;
+	border: 1px solid #fff;
 	padding: 2em;
-	color: #0A5243;
+	color: #fff;
 }
 
 .Kursive{
@@ -152,9 +172,19 @@ td, th {
 	font-style: italic;
 	font-size: 2.5em;
 	text-align: center;
-	border: 1px solid #505957;
+	border: 1px solid #fff;
 	padding: 2em;
-	color: #0A5243;
+	color: #fff;
+}
+
+.transition{
+	font-family: 'Manrope-Light';
+	font-size: 2.5em;
+	text-align: center;
+	padding: 2em;
+	border: 1px solid #fff;
+
+
 }
 
 li{
@@ -166,8 +196,13 @@ li{
 a {
     line-height: 1.9rem;
     font-size: 1.3rem;
-    color: #0A5243;
-    font-family: 'Manrope-Bold';
+ 	color: #505957;
+    font-family: 'Manrope-Light';
+    text-decoration: none;
+}
+a:hover {
+  color: #0A5243;
+  
 }
 
 @media screen and (max-width: 1000px) {

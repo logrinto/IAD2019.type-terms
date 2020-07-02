@@ -3,8 +3,12 @@ html {
   font-size: 18px;
   margin: 0;
   padding: 0;
-  }
+}
 
+.content {
+  overflow: hidden;
+  max-width: 100vw;
+}
 
 .text {
   max-width: 40rem;
@@ -12,7 +16,6 @@ html {
   margin-left: auto;
   margin-right: auto;
   margin-top: 10vmin;
-  /* background-color: lightgrey; */
 }
 
 .abstand {
@@ -36,8 +39,6 @@ h1 {
   text-align: right;
   text-transform: uppercase;
   hyphens: auto;
-  /* text-decoration: underline 0.08em solid; */
-  /* margin-bottom: 0.2em; */
   margin-top: 1vw;
   margin-bottom: -1.15vw;
   margin-right: 2vw;
@@ -54,17 +55,12 @@ h2 {
   margin-top: 4vw;
   margin-bottom: -0.5vw;
   margin-left: 2vw;
-  /* margin-bottom: 5em;
-  text-decoration: underline 0.1em solid; */
 }
 
 h3 {
   font-size: 2rem;
   font-weight: 800;
-  letter-spacing: 0.01em;
   line-height: 1.2em;
-  /* text-transform: uppercase; */
-  /* hyphens: auto; */
   margin-bottom: 1em;
 }
 
@@ -73,7 +69,6 @@ h4 {
   font-weight: 800;
   letter-spacing: 0.01em;
   line-height: 1.2em;
-  /* text-transform: uppercase; */
   hyphens: auto;
   margin-bottom: 1em;
 }
@@ -85,8 +80,12 @@ p {
   line-height: 1.7em;
 }
 
+ul {
+  padding-left: 0.9em;
+}
+
 li {
-  line-height: 1.7em;
+  line-height: 1.3em;
   margin-bottom: 0.9em;
   list-style: "– ";
 }
@@ -96,16 +95,36 @@ a {
   color: #24769a;
 }
 
+.sen_typeface {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.regular {
+    font-size: 6vw;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    line-height: 1.7em;
+  }
+
+
+.fusszeile {
+  font-size: 0.7rem;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  line-height: 1.6em;
+  text-align: center;
+}
+
 .bild_breit {
   width: 90vw;
-  display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
 .bild_schmaler {
   width: 64vw;
-  display: block;
   margin-left: auto;
   margin-right: auto;
 }
@@ -123,19 +142,41 @@ a {
   border-radius: 0.3em;
 }
 
-
 code {
   font-family: 'Source Code Pro', monospace;
   font-size: 1rem;
   color: white;
-  }
+}
 
 span {
   color: #89e650;
 }
 
-/* #c650ff
-#ffe550
-#50e0ff
-#89ff50
-#ff6f50 */
+/* andere Bilder Desktop/Mobile */
+#desktop {
+  display: block;
+}
+
+#mobile {
+  display: none;
+}
+
+/* Mediaquery */
+
+@media all and (max-width: 62em) {
+  #desktop {
+    display: none;
+  }
+
+  #mobile {
+    display: block;
+  }
+
+  .abstand {
+    height: 3rem;
+  }
+
+  html {
+    font-size: 16px;
+  }
+}

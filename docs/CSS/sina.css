@@ -31,11 +31,15 @@ h3 {
   margin-top: 300px;
 
 }
+code{
+  color: cyan;
+  background-color: black;
+}
 
 .raster {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: 800px 600px 900px 1fr 1fr 800px 300px 100px 1000px 300px 100px 800px 300px;
+  grid-template-rows: 800px 600px 650px 300px 1fr 1fr 800px 300px 100px 1000px 300px 100px 800px 300px 100px 1200px;
   grid-gap: 20px;
   margin-left: 4%;
   margin-right: 4%;
@@ -45,6 +49,7 @@ h3 {
   "titel titel titel titel titel titel"
   "einleitung einleitung einleitung . . ."
   ". wasgibts wasgibts wasgibts . ."
+  ". . . . . ."
   ". uebersicht uebersicht uebersicht . ."
   "divistitel divistitel divistitel divistitel divistitel divistitel"
   ". . divistext divistext divistext ."
@@ -58,6 +63,8 @@ h3 {
   "untersstrich untersstrich untersstrich untersstrich untersstrich untersstrich"
   ". . untersstrichtext untersstrichtext untersstrichtext ."
   ". . . . . ."
+  ". schrift schrift schrift . ."
+  "quellen quellen quellen copyright copyright copyright"
 }
 .titel {
   grid-area: titel;
@@ -89,9 +96,21 @@ font-style: normal;
 
 
 .wasgibts {
+  background-color: black;
   grid-area: wasgibts;
   margin-top: 200px;
+  color: white;
 }
+.wasgibts p {
+margin-left: 40px;
+margin-right: 40px;
+}
+.wasgibts h1 {
+margin-left: 40px;
+margin-right: 20px;
+margin-top: 40px;
+}
+
 
 
 .divistitel {
@@ -102,7 +121,6 @@ font-style: normal;
   margin-left: -5%;
   letter-spacing: -0.02em;
   line-height: 1.05em;
-
 }
 
 .divistext {
@@ -117,7 +135,6 @@ font-style: normal;
   margin-left: -5%;
   letter-spacing: -0.02em;
   line-height: 1.05em;
-
 }
 
 .gedankenstrichtext {
@@ -132,7 +149,6 @@ font-style: normal;
   margin-left: -5%;
   letter-spacing: -0.02em;
   line-height: 1.05em;
-
 }
 
 .gevierttext {
@@ -147,15 +163,139 @@ font-style: normal;
   margin-left: -5%;
   letter-spacing: -0.02em;
   line-height: 1.05em;
-
 }
 
 .unterstrichtext {
   grid-area: untersstrichtext;
 }
 
-.quellen{
+.schrift {
   background-color: black;
-  width: 100%;
-  height: 80vh;
+  grid-area: schrift;
+  margin-top: 200px;
+  color: white;
 }
+.schrift p {
+  font-size: 80%;
+margin-left: 40px;
+margin-right: 40px;
+}
+.schrift h1 {
+  font-size: 300%;
+margin-left: 40px;
+margin-right: 20px;
+margin-top: 40px;
+}
+
+.quellen {
+  grid-area: quellen;
+
+}
+
+.copyright {
+  grid-area: copyright;
+font-size: 80%;
+align-self: end;
+text-align: end;
+}
+
+
+/*_______________________________________________*/
+
+
+@media all and (max-width: 39em) /*mobil*/ {
+
+  html{
+  font-size: 14px;
+  }
+
+  h1 {
+  font-family: noto-sans, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 130%;
+  }
+
+  .raster {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 400px 600px 500px 1fr 1fr 800px 900px 100px 1200px 150px 60px 500px 300px 60px 1100px;
+    grid-gap: 20px;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 2%;
+
+    grid-template-areas:
+    "titel titel titel titel titel titel"
+    "einleitung einleitung einleitung einleitung einleitung ."
+    ". wasgibts wasgibts wasgibts wasgibts wasgibts"
+    ". uebersicht uebersicht uebersicht uebersicht uebersicht"
+    "divistitel divistitel divistitel divistitel divistitel divistitel"
+    ". . divistext divistext divistext divistext"
+    ". . . . . ."
+    "gedankenstrich gedankenstrich gedankenstrich gedankenstrich gedankenstrich gedankenstrich"
+    ". . gedankenstrichtext gedankenstrichtext gedankenstrichtext gedankenstrichtext"
+    ". . . . . ."
+    "geviert geviert geviert geviert geviert geviert"
+    ". . gevierttext gevierttext gevierttext gevierttext"
+    ". . . . . ."
+    "untersstrich untersstrich untersstrich untersstrich untersstrich untersstrich"
+    ". . untersstrichtext untersstrichtext untersstrichtext untersstrichtext"
+    ". . . . . ."
+    ". schrift schrift schrift . ."
+    "quellen quellen quellen quellen quellen quellen"
+    "copyright copyright copyright . . ."
+
+
+    }
+
+    .titel {
+    grid-area: titel;
+    grid-template-rows: 300px;
+    font-size: 400%;
+    line-height: 1.06em;
+    letter-spacing: 0.02em;
+    font-weight: 700;
+    font-style: normal;
+    text-align: start;
+  }
+
+  .divistitel {
+    grid-area: divistitel;
+    font-size: 300%;
+    font-weight: 700;
+    color: cyan;
+    margin-left: -5%;
+    letter-spacing: -0.02em;
+    line-height: 1.05em;
+  }
+
+  .gedankenstrich {
+    grid-area: gedankenstrich;
+    font-size: 300%;
+    font-weight: 700;
+    color: cyan;
+    margin-left: -5%;
+    letter-spacing: -0.02em;
+    line-height: 1.05em;
+  }
+
+  .geviert {
+    grid-area: geviert;
+    font-size: 300%;
+    font-weight: 700;
+    color: cyan;
+    margin-left: -5%;
+    letter-spacing: -0.02em;
+    line-height: 1.05em;
+  }
+
+  .untersstrich {
+    grid-area: untersstrich;
+    font-size: 300%;
+    font-weight: 700;
+    color: cyan;
+    margin-left: -5%;
+    letter-spacing: -0.02em;
+    line-height: 1.05em;
+  }
