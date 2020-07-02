@@ -2,35 +2,42 @@
 <html lang="de">
   <head>
     <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Flavia</title>
     <link rel="stylesheet" href="CSS/flavia.css">
     <script src="script.js"></script>
   </head>
   <body>
 
-<div class="bild">
-    <img src="./Links/flavia/Typografische_Trennungen_Bild_01.png" alt="Trennungen">
-</div>
 
 
 
-<div class="spalte">
-    <h1>Typografische Trennungen</h1>
-  <h2>Silbentrennungen</h2>
-<p>Die Silbentrennung dient besonders im Blocksatz zur Minimierung der Wortabstände, aber auch im Flattersatz ist sie wichtig, um einausgeglichenes Satzbild zu erhalten, daher sind die Silbentrennungen für ein ästhetisches Erscheinungsbild eines Abschnitts unerlässlich. Neben den uns bereits bekannten Trennregeln gibt es auch typografische Eigenheiten, die man beachten sollte.</p>
+<section id="sequenz1" class="grundraster">
+    <h1 class="a1">Typografische Trennungen</h1>
+    <h2 class="a2">Silbentrennungen</h2>
+    <p class="a3">Die Silbentrennung dient besonders im Blocksatz zur Mini&shy;mierung der Wortabstände, aber auch im Flattersatz ist sie wichtig, um einausgeglichenes Satzbild zu erhalten, daher sind die Silbentrennungen für ein ästhetisches Erscheinungs&shy;bild eines Abschnitts unerlässlich. Neben den uns &shy;bereits bekannten Trennregeln gibt es auch typografische Eigen&shy;heiten, die man beachten sollte.</p>
+    <div class="bild a4">
+        <img src="./Links/flavia/Typografische_Trennungen_Bild_01.png" alt="Trennungen">
+    </div>
 
 
-<div class="bild">
+</section>
+
+
+<!-- <div class="bild">
     <img src="./Links/flavia/Typografische_Trennungen_Bild_02.png" alt="Trennungen">
-</div>
+</div> -->
 
+<section id="sequenz2" class="grundraster">
 
-  <h2>Wörter mit Bedacht trennen</h2>
-<p>Silben von 2 Buchstaben am Wortanfang oder -ende sollten nicht abgetrennt werden, ausser es handelt sich um eine Vorsilbe oder ein eigenes Wort. Beispiel:</p>
-<p>Nicht trennbar: Augen, Suppe, Reihe</p>
-<p>Aber erlaubt: er-fassen, Ei-gelb, berg-ab</p>
-<p>Um unerwünschte Assoziationen und Unterbrüche im Lesefluss zu vermeiden, sollten Trennungen immer überprüft werden. Einige Beispiele für unerwünschte Trennungen:</p>
-<ul>
+  <h2 class="b2">Wörter mit Bedacht trennen</h2>
+  <p class="b3">Silben von 2 Buchstaben am Wortanfang oder -ende sollten nicht abgetrennt werden, ausser es handelt sich um eine Vorsilbe oder ein eigenes Wort. Beispiel:<br>
+    Nicht trennbar: Augen, Suppe, Reihe<br>
+    Aber erlaubt: er-fassen, Ei-gelb, berg-ab<br><br>
+    Um unerwünschte Assoziationen und Unterbrüche im Lesefluss zu vermeiden, sollten Trennungen immer überprüft werden. Einige Beispiele für unerwünschte Trennungen:</p>
+<ul class="b4">
+
 <li>Stau-becken und Staub-ecken</li>
 <li>Eis-tempel und Ei-stempel</li>
 <li>Ur-instinkt und Urin-stinkt</li>
@@ -38,47 +45,60 @@
 <li>Ver-sendung und Vers-endung</li>
 <li>be-inhalten und bein-halten</li>
 </ul>
-<p>Inhaltlich oder grafisch zusammengehörige Wortgruppen sollen nicht getrennt werden.</p>
-<ul>
-<li>1. Das trifft m.<br>
-E. nicht zu.</li>
+</section>
+
+<section id="sequenz3" class="grundraster">
+
+<p class="b5">Inhaltlich oder grafisch zusammengehörige Wortgruppen sollen nicht getrennt werden.</p>
+
+<p class="b6">Das trifft m.<br>
+E. nicht zu.</p>
 <br>
 
-<div class="bild">
+<!-- <div class="bild">
     <img src="./Links/flavia/Typografische_Trennungen_Bild_03.png" alt="Trennungen">
-</div>
+</div> -->
 
-<li>2. Der Termin mit Dr.<br>
-Prühs findet nicht statt.</li>
+<p class="b7">Der Termin mit Dr.<br>
+Prühs findet nicht statt.</p>
 <br>
-<li>3. Es wird am 12.<br>
-Juli stattfinden.</li>
+<p class="b8">Es wird am 12.<br>
+Juli stattfinden.</p>
 <br>
-<li>4. Er hat über 20<br>
-Mio. Schulden</li>
-</ul>
-<p>Durch sogenannte «soft hyphen» (& shy;) kann dem Programm gezeigt werden, wo ein Wort getrennt werden soll. Die Trennung wird nur sichtbar, wenn das Wort am Ende einer Zeile steht, ist das Wort in der Mitte einer Zeile, erscheint es ohne Trennzeichen.
-  <h2>Digital</h2>
-<p>Um die Silbentrennungen im CSS zu aktivieren kann eine Code-Zeile eingefügt werden. Hier der Beispiel-Code für einen Absatz: </p>
+<p class="b9">Er hat über 20<br>
+Mio. Schulden</p>
+
+<p class="b10">Durch sogenannte «soft hyphen» (<code>&amp;shy;</code>) kann dem Programm gezeigt werden, wo ein Wort getrennt werden soll. Die Trennung wird nur sichtbar, wenn das Wort am Ende einer Zeile steht, ist das Wort in der Mitte einer Zeile, erscheint es ohne Trennzeichen.
+</section>
 
 
-<div class="codezeile">
+  <section id="sequenz4" class="grundraster">
+  <h2 class="c1">Digitale Umsetzung</h2>
+<p class="c2">Um die Silbentrennungen im CSS zu aktivieren kann eine Code-Zeile eingefügt werden. Hier der Beispiel-Code für einen Absatz: </p>
 
-<h3>p {<br>
-hyphens: auto;<br>
-}</h3>
+<code class="block c3"><pre>
+p {
+  hyphens: auto;
+}
+</pre></code>
 
-</div>
+<h2 class="d1"> Die Schrift Montserrat </h2>
+<p class="d2"> Um mein Thema zu verdeutlichen, habe ich die Schrift Montserrat gewählt. Diese läuft eher breit und verursacht so mehr Trennungen.
+  Bei solchen Schriften ist es noch wichtiger, die Trennungen richtig einzustellen und gegebenfalls die «soft hyphens» an den richtigen Stellen einzufügen, um unschöne Trennungen zu vermeiden.</p>
+</section>
 
-  <h2>Quellen</h2>
-  <ul>
+
+<section id="sequenz5" class="grundraster">
+
+  <h2 class="e1">Quellenangaben</h2>
+  <ul class="e2">
   <li><a target="_blank" rel="noopener noreferrer" href="https://www.typographynerd.de/praxis/silbentrennung/">Typographynerd</a></li>
   <li>Richtiges Deutsch, Walter Heuer, Max Flückiger, Peter Gallmann, 30. Auflage, Rz. 1301–1327</li>
 <!-- <li><a target="_blank" rel="noopener noreferrer" href="https://german.stackexchange.com/questions/1705/w%C3%B6rter-mit-ung%C3%BCnstiger-silbentrennung">https://german.stackexchange.com/questions/1705/w%C3%B6rter-mit-ung%C3%BCnstiger-silbentrennung</a></li> -->
 </ul>
+</section>
 
 
-</div>
 
 
 </body>
