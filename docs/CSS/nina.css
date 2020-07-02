@@ -85,8 +85,12 @@ p {
   line-height: 1.7em;
 }
 
+ul {
+  padding-left: 0.9em;
+}
+
 li {
-  line-height: 1.7em;
+  line-height: 1.3em;
   margin-bottom: 0.9em;
   list-style: "– ";
 }
@@ -98,14 +102,14 @@ a {
 
 .bild_breit {
   width: 90vw;
-  display: block;
+  /* display: block; */
   margin-left: auto;
   margin-right: auto;
 }
 
 .bild_schmaler {
   width: 64vw;
-  display: block;
+  /* display: block; */
   margin-left: auto;
   margin-right: auto;
 }
@@ -134,8 +138,24 @@ span {
   color: #89e650;
 }
 
-/* #c650ff
-#ffe550
-#50e0ff
-#89ff50
-#ff6f50 */
+
+/* andere Bilder Desktop/Mobile */
+#desktop {
+  display: block;
+}
+#mobile {
+  display: none;
+}
+
+@media all and (max-width: 40em) {
+    #desktop {
+      display: none;
+    }
+    #mobile {
+      display: block;
+    }
+
+    .abstand {
+      height: 3rem;
+    }
+}
