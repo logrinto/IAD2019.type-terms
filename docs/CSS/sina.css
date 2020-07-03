@@ -221,7 +221,7 @@ text-align: end;
   .raster {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: 400px 400px 500px 200px 1fr 800px 600px 100px 1200px 150px 60px 500px 300px 60px 1100px 300px 900px 400px;
+    grid-template-rows: 400px 400px 500px 200px 1fr 600px 400px 50px 800px 150px 50px 500px 300px 50px 600px 300px 900px 400px;
     grid-gap: 20px;
     margin-left: 4%;
     margin-right: 4%;
