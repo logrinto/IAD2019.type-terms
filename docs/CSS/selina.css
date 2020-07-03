@@ -20,7 +20,7 @@ body {
 
 
 header {
-  background: linear-gradient(to bottom right, #F9D39D, #FF7ECC, #F9D39D, #64F5FF, #FF7ECC, #64F5FF, #F9D39D);
+  background: linear-gradient(to bottom right, #F9D39D, #FF7ECC, #7AD4FF, #FF7ECC, #F9D39D);
   background-size: 200% 200%;
   height: 60vh;
   width: 100vw;
@@ -160,7 +160,7 @@ article {
 
 
 article:hover {
-    background-image: linear-gradient(to bottom right, rgba(249,211,157,1), rgba(255,126,204,1), rgba(100,245,255,1));
+    background-image: linear-gradient(to bottom right, rgba(249,211,157,1), rgba(255,126,204,1), rgba(100,245,255,0.4));
 }
 
 
