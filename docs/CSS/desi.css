@@ -274,11 +274,11 @@ align-items: center;
     grid-area: 7/10/8/13;
 }}
 .IconLineal{
-  width:110%;
+  width:50%;
 }
 @media screen and (max-width: 50em) {
   .IconLineal{
-  height:50%;
+  width: 110%;
 }}
 
 .Beispiel1{
