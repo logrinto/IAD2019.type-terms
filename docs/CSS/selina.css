@@ -134,14 +134,19 @@ h6 {
   }
 }
 
-.header h2 {
+.header a {
   text-align: center;
-  text
-  letter-spacing: 0.2rem;
+  letter-spacing: 0.02rem;
   color: black;
   padding-top: 30px;
   font-size: 2rem;
   font-weight: lighter;
+  margin-left: 45vw;
+  text-decoration: none;
+}
+
+.header a:hover {
+  color: #64F5FF;
 }
 
 
@@ -307,6 +312,10 @@ a:hover {
   header {
     height: 60vh;
     width: 100vw;
+  }
+
+  .header a {
+    margin-left: 37vw;
   }
 
   .header h1 {
