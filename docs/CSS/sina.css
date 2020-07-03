@@ -39,7 +39,7 @@ code{
 .raster {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: 800px 600px 650px 300px 1fr 1fr 800px 300px 100px 1000px 300px 100px 800px 300px 100px 1200px;
+  grid-template-rows: 800px 600px 650px 300px 1fr 1fr 800px 300px 100px 1000px 300px 100px 800px 300px 100px 600px 300px 1200px 600px;
   grid-gap: 20px;
   margin-left: 4%;
   margin-right: 4%;
@@ -189,6 +189,8 @@ margin-top: 40px;
 
 .quellen {
   grid-area: quellen;
+  align-self: end;
+
 
 }
 
