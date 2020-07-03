@@ -1,3 +1,7 @@
+body {
+ hyphens: auto;
+}
+
 html {
 font-family: noto-sans, sans-serif;
 font-size: 17px;
