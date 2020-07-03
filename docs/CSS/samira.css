@@ -30,10 +30,21 @@ h2{
 	margin-top: 1em;
 
 }
-
+h2.weiss{
+	color: #fff;
+	
+}
 h3{
 	font-family: 'Manrope-Light';
 	font-size: 1.3em;
+	margin-top: 1em;
+	color: #0A5243;
+
+	}
+
+h4{
+	font-family: 'Manrope-Light';
+	font-size: 5em;
 	margin-top: 1em;
 	color: #0A5243;
 
@@ -50,6 +61,9 @@ p{
 p.weiss{
 	color: #ffffff;
 
+}
+p.bold{
+	font-family: 'Manrope-Bold';
 }
 
 h6{
@@ -93,49 +107,16 @@ img{
 
 }
 
-table {
-    border-collapse: collapse;
-    width: 100%;
-     /*background-color: red;*/
-     padding-bottom: 2em;
-}
-
-
-
-td, th {
-    border-bottom: 1px solid #505957;
-    border-top: 1px solid #505957;
-    border-right: 1px solid #505957;
-    border-left: 1px solid #505957;
-    width: 4rem;
-	height: 8rem;
-
-}
-
-
 
 .backgroundcolor{
 
 	background-color:  #0A5243;
 	padding-top: 2em;
 	padding-bottom: 2em;
+	margin-top: 2em;
 
 
 }
-
-.grundraster{
-            display:grid;
-            grid-template-columns: repeat(12, 1fr);
-            grid-template-rows: repeat(12, 1fr);
-            height:100vh;
-        }
-
-/*.position{
-  grid-column: 3/11;
-  grid-row: 2/11;
-  align-self:center;
-
-}*/
 
 
 .Beispiela{
@@ -147,12 +128,40 @@ td, th {
 
 }
 
+.grundraster{
+            display:grid;
+            grid-template-columns: repeat(12, 1fr);
+            grid-template-rows: repeat(4, 1fr);
+            /*height:40vh;*/
+        }
+
+.M1{
+  grid-column: 4/11;
+  grid-row: 1/2;
+ 
+}
+.M2{
+  grid-column: 5/11;
+  grid-row: 2/3;
+}
+.M3{
+  grid-column: 6/11;
+  grid-row: 1/3;
+    align-self:center;
+}
+.M4{
+  grid-column: 7/11;
+  grid-row: 3/4;
+  
+}
+
+
 .Regular{
 	grid-area: Regular;
 	font-family: 'Manrope-Light';
 	font-size: 2.5em;
    text-align: center;
-	border: 1px solid #fff;
+	/*border: 1px solid #fff;*/
 	padding: 2em;
 	color: #fff;
 }
@@ -162,7 +171,7 @@ td, th {
 	font-family: 'Manrope-Bold';
 	font-size: 2.5em;
 	text-align: center;
-	border: 1px solid #fff;
+	/*border: 1px solid #fff;*/
 	padding: 2em;
 	color: #fff;
 }
@@ -172,7 +181,7 @@ td, th {
 	font-style: italic;
 	font-size: 2.5em;
 	text-align: center;
-	border: 1px solid #fff;
+	/*border: 1px solid #fff;*/
 	padding: 2em;
 	color: #fff;
 }
@@ -182,7 +191,7 @@ td, th {
 	font-size: 2.5em;
 	text-align: center;
 	padding: 2em;
-	border: 1px solid #fff;
+	/*border: 1px solid #fff;*/
 
 
 }
@@ -202,7 +211,7 @@ a {
 }
 a:hover {
   color: #0A5243;
-  
+
 }
 
 @media screen and (max-width: 1000px) {
@@ -218,6 +227,29 @@ a:hover {
 	"Regular"
 	"Bold"
 	"Kursive";
+	}
+
+h4{
+	font-size: 4em;
+}
+
+.M1{
+  grid-column: 3/11;
+  grid-row: 1/2;
+ 
+}
+.M2{
+  grid-column: 4/11;
+  grid-row: 2/3;
+}
+.M3{
+  grid-column: 5/11;
+  grid-row: 1/3;
+    align-self:center;
+}
+.M4{
+  grid-column: 6/11;
+  grid-row: 3/4;
 	}
 
 
@@ -250,8 +282,8 @@ a:hover {
 	font-size: 3em;
 	padding: 1em;
 }
-	}
-	.einleitung{ 
+	
+.einleitung{ 
 		color:red;
 	font-size: 1.7em;
 	}
@@ -275,6 +307,27 @@ a:hover {
 
 	a{
 		font-size: 1.1em;
+	}
+h4{
+	font-size: 3.5em;
+}
+.M1{
+  grid-column: 2/11;
+  grid-row: 1/2;
+ 
+}
+.M2{
+  grid-column: 3/11;
+  grid-row: 2/3;
+}
+.M3{
+  grid-column: 4/11;
+  grid-row: 1/3;
+    align-self:center;
+}
+.M4{
+  grid-column: 5/11;
+  grid-row: 3/4;
 	}
 }
 

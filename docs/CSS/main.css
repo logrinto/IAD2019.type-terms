@@ -303,6 +303,6 @@ button:focus {
 
 .menu {
   font-size: 1.5em;
-  margin-top: 2em;
   text-align: center;
+  height: 100%;
 }

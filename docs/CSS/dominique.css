@@ -71,7 +71,45 @@ p{
   }
 
   h4 {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+
+  p{
+    font-size: 1.1rem;
+    font-weight: normal;
+    font-kerning: 120%;
+    line-height: 1.5;
+    hyphens: auto;
+  }
+}
+
+@media screen and (min-width: 41rem) and (max-width: 60rem) {
+  h1{
+    margin-top: 4rem;
+    font-size: 4rem;
+    line-height: 1;
+    font-weight: 400;
+  }
+
+  h2{
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    font-size: 4rem;
+    font-weight: bold;
+    line-height: 1;
+    padding-top: 2rem;
+  }
+
+  h3{
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
+    font-weight: 400;
+  }
+
+  h4 {
+    font-size: 1.2rem;
     font-weight: 400;
   }
 
@@ -214,6 +252,68 @@ p{
 
 }
 
+@media screen and (min-width: 41rem) and (max-width: 60rem) {
+
+.raster_a > * {
+}
+
+.raster_a {
+  width: 100%;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 0.5fr 2fr 1fr;
+  grid-auto-rows: min-content;
+  grid-gap: 20px;
+}
+
+.hero-color {
+  grid-column: 1 / 4;
+  grid-row: 1 / 2;
+  background: rgb(0,232,255);
+  background: linear-gradient(180deg, rgba(0,232,255,1) 0%, rgba(207,23,119,1) 100%);
+}
+
+.hero-content {
+  grid-column: 2 / 4;
+  grid-row: 1 / 2;
+  color: #ffffff;
+  font-weight: 400;
+  padding-top: 4rem;
+  padding-bottom: 7rem;
+  color: white;
+}
+
+/*Min Maj was?*/
+
+.Headline {
+  grid-column: 1 / 4;
+  grid-row: 2 / 3;
+  padding-top: 3rem;
+  padding-left: 2rem;
+}
+
+.Intro {
+  grid-column: 2 / 4;
+  grid-row: 3 / 4;
+  padding-bottom: 1rem;
+  padding-right: 5rem;
+}
+
+.Wichtig {
+  grid-column: 2 / 4;
+  grid-row: 4 / 5;
+  padding-right: 7rem;
+  padding-left: 1rem;
+  padding-bottom: 5rem;
+  padding-top: 1rem;
+  color: #cf1777;
+  font-size: 2rem;
+  font-weight: 800;
+  text-align: center;
+  hyphens: none;
+}
+}
+
 /*Vergleich Min Maj*/
 
 .raster_b > * {
@@ -235,7 +335,7 @@ p{
 .Bild_min_maj_backgr_re {
   grid-column: 2 / 3;
   grid-row: 1 / 2;
-  background: #cf1777;
+  background: #2bb1e2;
 }
 
 
@@ -288,7 +388,7 @@ p{
   .Bild_min_maj_backgr_re {
     grid-column: 1 / 2;
     grid-row: 2 / 3;
-    background: #ff3ba2;
+    background: #2bb1e2;
   }
 
 
@@ -321,6 +421,61 @@ p{
   .Bild_min_maj_b img {
     width: 100%;
   }
+}
+
+@media screen and (min-width: 41rem) and (max-width: 60rem) {
+
+.raster_b > * {
+}
+
+.raster_b {
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: min-content;
+}
+
+.Bild_min_maj_backgr_le {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  background: #cf1777;
+}
+
+.Bild_min_maj_backgr_re {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  background: #2bb1e2;
+}
+
+
+.Bild_min_maj_a {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  padding-top: 3rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 5rem;
+  color: white;
+  font-size: 1rem;
+}
+
+.Bild_min_maj_a img {
+  width: 100%;
+}
+
+.Bild_min_maj_b {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  padding-top: 3rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 5rem;
+  color: white;
+}
+
+.Bild_min_maj_b img {
+  width: 100%;
+}
 }
 
 /*Gutenberg*/
@@ -386,7 +541,7 @@ p{
     grid-column: 1 / 3;
     grid-row: 1 / 2;
     padding-top: 4rem;
-    padding-left: 0.5rem;
+    padding-left: 1rem;
   }
 
   .Gutenberg_beschr {
@@ -422,6 +577,55 @@ p{
   }
 }
 
+@media screen and (min-width: 41rem) and (max-width: 60rem) {
+  .raster_c > * {
+  }
+
+  .raster_c {
+    width: 100%;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr;
+    grid-auto-rows: min-content;
+    grid-gap: 20px;
+  }
+
+  .Gutenberg {
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+    padding-top: 5rem;
+    padding-left: 2rem;
+  }
+
+  .Gutenberg_beschr {
+    grid-column: 2 / 4;
+    grid-row: 2 / 3;
+    padding-right: 5rem;
+  }
+
+  .Bild_Tabellen_a {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+    padding-bottom: 5rem;
+  }
+
+  .Bild_Tabellen_a img {
+    width: 90%;
+  }
+
+  .Bild_Tabellen_b {
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+    padding-bottom: 5rem;
+  }
+
+  .Bild_Tabellen_b img {
+    width: 90%;
+  }
+
+}
+
+
 /*Anwendung Lauftext*/
 
 .raster_d > * {
@@ -446,7 +650,6 @@ p{
 .Anwendung {
   grid-column: 2 / 5;
   grid-row: 4 / 5;
-  z-index: 98;
   color: black;
   padding-top: 5rem;
   padding-bottom: 0;
@@ -497,7 +700,7 @@ p{
     z-index: 98;
     color: black;
     padding-top: 4rem;
-    padding-left: 0.5rem;
+    padding-left: 1rem;
     padding-bottom: 2rem;
   }
 
@@ -518,6 +721,54 @@ p{
     font-feature-settings: "lnum";
     padding-bottom: 3rem;
     padding-right: 2rem;
+    color: black;
+  }
+}
+
+@media screen and (min-width: 41rem) and (max-width: 60rem) {
+  .raster_d > * {
+  }
+
+  .raster_d {
+    width: 100%;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 0.3fr 1fr 1fr 0.2fr;
+    grid-auto-rows: min-content;
+    grid-gap: 20px;
+  }
+
+  .colorboxanw {
+    grid-column: 1 / -1;
+    grid-row: 1 / 3;
+    background: #e8e7e7;
+    color: black;
+  }
+
+  .Anwendung {
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+    color: black;
+    padding-top: 5rem;
+    padding-bottom: 0;
+    padding-left: 2rem;
+  }
+
+  .Minuskel {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    padding-bottom: 8rem;
+    color: black;
+  }
+
+  .Majuskel {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+    font-variant-numeric: lining-nums;
+    -moz-font-feature-settings: "lnum";
+    -webkit-font-feature-settings: "lnum";
+    font-feature-settings: "lnum";
+    padding-bottom: 9rem;
     color: black;
   }
 }
@@ -570,6 +821,8 @@ p{
   width: 100%;
 }
 
+
+
 @media screen and (max-width: 40rem) {
   .raster_e > * {
   }
@@ -587,22 +840,72 @@ p{
     grid-column: 1 / 3;
     grid-row: 1 / 2;
     padding-top: 4rem;
-    padding-left: 0.5rem;
+    padding-left: 1rem;
   }
 
   .CSS_Intro {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
     padding-right: 2rem;
+    padding-bottom: 2rem;
   }
 
   .CSS_Bild_a {
     grid-column: 1 / 3;
     grid-row: 3 / 4;
-    padding-top: 2rem;
+    padding-top: 3rem;
     padding-left: 1rem;
     padding-right: 1rem;
     padding-bottom: 2rem;
+  }
+
+  .CSS_bluebox {
+    grid-column: 1 / -1;
+    grid-row: 3 / 4;
+    background: #cf1777;
+  }
+
+  .CSS_Bild_a p {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+  .CSS_Bild_a img {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 41rem) and (max-width: 60rem) {
+  .raster_e > * {
+  }
+
+  .raster_e {
+    width: 100%;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr;
+    grid-auto-rows: min-content;
+    grid-gap: 20px;
+  }
+
+  .CSS {
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+    padding-top: 5rem;
+    padding-left: 2rem;
+  }
+
+  .CSS_Intro {
+    grid-column: 2 / 4;
+    grid-row: 2 / 3;
+    padding-right: 5rem;
+    padding-bottom: 3rem;
+  }
+
+  .CSS_Bild_a {
+    grid-column: 1 / 4;
+    grid-row: 3 / 4;
+    padding: 5rem;
   }
 
   .CSS_bluebox {
@@ -682,7 +985,7 @@ p{
     grid-row: 1 / 2;
     z-index: 99;
     padding-top: 4rem;
-    padding-left: 0.5rem;
+    padding-left: 1rem;
   }
 
   .whitebox {
@@ -710,6 +1013,54 @@ p{
   }
 }
 
+@media screen and (min-width: 41rem) and (max-width: 60rem) {
+  .raster_f > * {
+  }
+
+  .raster_f {
+    width: 100%;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr;
+    grid-auto-rows: min-content;
+    grid-gap: 20px;
+  }
+
+  .Raleway {
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+    z-index: 99;
+    padding-top: 3rem;
+    padding-left: 2rem;
+  }
+
+  .whitebox {
+    grid-column: 1 / -1;
+    grid-row: 1 / 4;
+    background: #e8e7e7;
+  }
+
+  .Raleway_Beschrieb {
+    grid-column: 2 / 4;
+    grid-row: 2 / 3;
+    padding-right: 5rem;
+  }
+
+  .Raleway_Bild {
+    grid-column: 1 / 4;
+    grid-row: 3 / 4;
+    background: #e8e7e7;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 5rem;
+  }
+
+  .Raleway_Bild img {
+    width: 95%;
+  }
+
+}
+
 /*Footer*/
 
 .Quellen {
@@ -728,6 +1079,18 @@ p{
     padding-bottom: 5rem;
     padding-right: 2rem;
     padding-left: 2rem;
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (min-width: 41rem) and (max-width: 60rem) {
+  .Quellen {
+    grid-column: 1 / 4;
+    grid-row: 4 / 5;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding-right: 2rem;
+    padding-left: 5rem;
     font-size: 0.9rem;
   }
 }

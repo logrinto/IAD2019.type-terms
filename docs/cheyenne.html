@@ -182,17 +182,27 @@
     </div>
     <div id="oval"></div>
     <script type="text/javascript">
-    var cursor = document.getElementById(
-      'oval'
-    );
-    document.addEventListener('mousemove'
-    , function(e){
-      var x = e.pageX;
-      var y = e.pageY;
-      cursor.style.left = x + "px";
-      cursor.style.top = y + "px";
+
+    var x = -5000;
+    var y = -5000;
+    var cursor = document.getElementById("oval");
+    document.addEventListener("mousemove", function(e) {
+      x = e.pageX;
+      y = e.pageY;
+    });
+
+    // see https://css-tricks.com/simulating-mouse-movement/
+    // The render function is called on every frame
+    function render() {
+      // I used translate instead of left/top
+      cursor.style.transform = "translate(" + x + "px, " + y + "px)"; // move it!
+
+      // Call the render function once the browser is ready to make it an infinite loop
+      requestAnimationFrame(render);
     }
-  );
-  </script>
+
+    // Ask the browser to call render to start our animation
+    requestAnimationFrame(render);
+    </script>
 </body>
 </html>
