@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./CSS/main.css" />
     <link rel="stylesheet" href="./CSS/examples.css" />
-    <script src="./js/main.js"></script>
   </head>
   <body class="home">
+    <base target="_parent">
+
     <!-- page content -->
     <div class="examples">
       <ul class="terms">
@@ -149,28 +150,5 @@
         </li>
       </ul>
     </div>
-
-    <!-- start navigation -->
-    <div class="navigation">
-
-      <div class="navigation--inner">
-        <div class="navigation--menu" id="site-navigation">
-          <nav class="menu">
-            <iframe src="./menu.html" style="height:100%;width:100%;" title="menu" frameBorder="0"></iframe>
-          </nav>
-        </div>
-      </div>
-      <button
-        class="navigation--toggle"
-        aria-controls="site-navigation"
-        aria-expanded="true"
-        aria-label="Menu"
-      >
-        <span class="navigation--hamburger close"
-          ><span class="navigation--label">Hauptmenü</span></span
-        >
-      </button>
-    </div>
-    <!-- end navigation -->
   </body>
 </html>
