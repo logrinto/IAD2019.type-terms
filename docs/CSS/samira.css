@@ -38,12 +38,14 @@ body{
 h1{
 	color: #0A5243;
   font-family: 'Manrope';
+    font-weight: 300;
   font-weight: 700;
 	font-size: 5em;
 }
 h2{
 	color: #0A5243;
 	font-family: 'Manrope';
+	  font-weight: 700;
 	font-size: 2.2em;
 	margin-top: 1em;
 
@@ -81,6 +83,8 @@ h4.bold{
 
 p{
 	font-size: 1.3em;
+	line-height: 1.4em;
+	  font-weight: 300;
 	color: #505957;
 
 
@@ -108,7 +112,7 @@ img{
 
 
 .content{
-	width: 50%;
+	width: 45%;
    margin: 1em auto;
    display:flex;
    align-items:center;
@@ -121,20 +125,12 @@ img{
 
 .einleitung{ 
 	color: red;
+	font-weight: 500;
 	color: #0A5243;
 	font-size: 2em;
 	margin-top: 0.5em;
 }
 
-.tabelle{
-	width: 50%;
-   margin: 1em auto;
-   align-items:center;
-   justify-content:left;
-   padding-top: 2em;
-	padding-bottom: 2em;
-
-}
 
 
 .backgroundcolor{
@@ -150,7 +146,7 @@ img{
 
 .Beispiela{
 	display: grid;
-	width: 50%;
+	width: 45%;
 	margin: 1em auto;
 	grid-template-areas:
 	"Regular Bold Kursive";
@@ -189,10 +185,11 @@ img{
 	grid-area: Regular;
 	font-family: 'Manrope';
 	font-size: 2.5em;
-   text-align: center;
+   text-align: left;
 	/*border: 1px solid #fff;*/
-	padding: 2em;
 	color: #fff;
+	padding-top: 2em;
+	
 }
 
 .Bold{
@@ -203,26 +200,39 @@ img{
 	/*border: 1px solid #fff;*/
 	padding: 2em;
 	color: #fff;
+	
 }
 
 .Kursive{
 	grid-area: Kursive;
 	font-style: italic;
 	font-size: 2.5em;
-	text-align: center;
+	text-align: right;
 	/*border: 1px solid #fff;*/
-	padding: 2em;
+	padding-top: 2em;
 	color: #fff;
+	
 }
+
 
 .transition{
 	font-family: 'Manrope';
 	font-size: 2.5em;
 	text-align: center;
-	padding: 2em;
 	/*border: 1px solid #fff;*/
+}
 
-
+.left{
+	text-align: left;
+	padding-top: 2em;
+}
+.center{
+	text-align: center;
+	padding: 2em;
+}
+.right{
+	text-align: right;
+	padding-top: 2em;
 }
 
 li{
@@ -252,10 +262,6 @@ a:hover {
 	}
 	.Beispiela{
 	width: 70%;
-	grid-template-areas:
-	"Regular"
-	"Bold"
-	"Kursive";
 	}
 
 h4{
@@ -302,13 +308,29 @@ h4{
 .Regular{
 	font-size: 3em;
 	padding: 1em;
+	text-align: center;
 }
 .Bold{
 	font-size: 3em;
 	padding: 1em;
+	text-align: center;
 }
 .Kursive{
 	font-size: 3em;
+	padding: 1em;
+	text-align: center;
+}
+
+.left{
+	text-align: center;
+	padding: 1em;
+}
+.center{
+	text-align: center;
+	padding: 1em;
+}
+.right{
+	text-align: center;
 	padding: 1em;
 }
 
