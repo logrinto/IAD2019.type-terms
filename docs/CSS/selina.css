@@ -105,7 +105,6 @@ h6 {
   text-align: center;
   font-weight: lighter;
   margin: auto;
-  z-index: 3;
   position: relative;
   animation-name: header;
   animation-duration: 1.5s;
