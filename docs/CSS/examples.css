@@ -39,7 +39,7 @@
 @import url('https://rsms.me/inter/inter.css');
 
 /* -- font dominique -- */
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;800&display=swap');
+
 
 
 /* -- start intro -- */
@@ -91,20 +91,38 @@
 /* -- end sam -- */
 
 /* -- start samira -- */
-@font-face {
-    font-family: 'Manrope';
-    src: url('Manrope-Light.woff') format('woff'),
-     url('Manrope-Medium.woff') format('woff'),
-      url('Manrope-Bold.woff') format('woff');
-    }
+
+@font-face { 
+  font-family: 'Manrope';
+  font-weight: 300;
+
+/*  src: url('pfad/zu/meinerschrift.woff2')  format('woff2'), 
+  url('pfad/zu/meinerschrift.woff')  format('woff'); */
+
+  src: url('../Links/samira/Manrope-Light.woff')  format('woff'); 
+}
+
+@font-face { 
+  font-family: 'Manrope';
+  font-weight: 700;
+  src: url('../Links/samira/Manrope-Bold.woff')  format('woff'); 
+}
+
+@font-face { 
+  font-family: 'Manrope';
+  font-weight: 500;
+  src: url('../Links/samira/Manrope-Medium.woff')  format('woff'); 
+}
+
 
 .term--samira {
-  font-family:'Manrope-Light';
-  /*font-weight: 400;*/
+  font-family:'Manrope';
+  font-weight: 300;
 }
 
 .term--samira .term__title {
-  font-family:'Manrope-Bold';
+  font-family:'Manrope';
+  font-weight: 700;
 }
 /* -- end samira -- */
 
