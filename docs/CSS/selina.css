@@ -62,6 +62,11 @@ h5 {
   margin-left: 5vw;
 }
 
+h2 {
+  text-align: center;
+  font-weight: bolder;
+}
+
 h6 {
   font-size: 1rem;
   letter-spacing: 0.05rem;
@@ -93,8 +98,9 @@ h6 {
   color: white;
   text-align: right;
   padding-right: 50px;
-  font-weight: lighter;
   padding-top: 30px;
+  text-decoration: none;
+  font-weight: 550;
 }
 
 .header h1 {
@@ -105,7 +111,6 @@ h6 {
   text-align: center;
   font-weight: lighter;
   margin: auto;
-  z-index: 3;
   position: relative;
   animation-name: header;
   animation-duration: 1.5s;
@@ -136,17 +141,17 @@ h6 {
 
 .header a {
   text-align: center;
-  letter-spacing: 0.02rem;
+  letter-spacing: 0.04rem;
   color: black;
   padding-top: 30px;
   font-size: 2rem;
-  font-weight: lighter;
-  margin-left: 45vw;
   text-decoration: none;
+  font-weight: 550;
 }
 
 .header a:hover {
   color: #64F5FF;
+  font-size: 2.5rem;
 }
 
 
@@ -186,7 +191,6 @@ article:hover {
 .migraine {
   letter-spacing: 1rem;
 }
-
 
 
 .gruppe h1 {
@@ -261,9 +265,12 @@ ol {
 a {
   color: #906CFF;
   line-height: 1.4rem;
+  text-decoration: none;
+
 }
 a:hover {
   color: #64F5FF;
+
 }
 
 .footer h4 {
