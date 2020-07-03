@@ -81,7 +81,7 @@ p {
 }
 
 ul {
-  padding-left: 0.9em;
+  padding-left: 2em;
 }
 
 li {
@@ -92,7 +92,13 @@ li {
 
 a {
   text-decoration: none;
-  color: #24769a;
+  color: #34cfed;
+  /* color: #24769a; */
+}
+
+
+a:hover {
+  text-decoration: underline;
 }
 
 .sen_typeface {
