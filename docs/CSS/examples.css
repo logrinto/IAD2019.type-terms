@@ -70,7 +70,6 @@
 .term--nina {
   font-family: 'Sen', sans-serif;
   font-weight: 400;
-  line-height: 1.1em;
 }
 
 .term--nina .term__title {
@@ -182,6 +181,7 @@
   font-family: 'Playfair Display', serif;
   font-weight: 400;
   letter-spacing: 0.05rem;
+  align-content: center;
 }
 
 .term--selina .term__title {
