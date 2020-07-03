@@ -13,23 +13,7 @@
   <script src="./js/main.js"></script>
 </head>
 <body>
-  <div class="navigation">
-    <div class="navigation--inner">
-      <div class="navigation--menu" id="site-navigation">
-        <nav class="menu">
-          CONTENT
-        </nav>
-      </div>
-    </div>
-    <button
-      class="navigation--toggle"
-      aria-controls="site-navigation"
-      aria-expanded="true"
-      aria-label="Menu">
-      <span class="navigation--hamburger close"
-        ><span class="navigation--label">Hauptmenü</span></span>
-    </button>
-  </div>
+  
   <div class="siteWrapper">
     <div class="container">
       <div class="row">
@@ -178,6 +162,28 @@
 
     </div>
     <div id="oval"></div>
+    <!-- start navigation -->
+    <div class="navigation">
+
+      <div class="navigation--inner">
+        <div class="navigation--menu" id="site-navigation">
+          <nav class="menu">
+            <iframe src="./menu.html" style="height:100%;width:100%;" title="menu" frameBorder="0"></iframe>
+          </nav>
+        </div>
+      </div>
+      <button
+        class="navigation--toggle"
+        aria-controls="site-navigation"
+        aria-expanded="true"
+        aria-label="Menu"
+      >
+        <span class="navigation--hamburger close"
+          ><span class="navigation--label">Hauptmenü</span></span
+        >
+      </button>
+    </div>
+    <!-- end navigation -->
     <script type="text/javascript">
 
     var x = -5000;
