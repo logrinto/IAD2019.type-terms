@@ -1,3 +1,12 @@
+
+@font-face {
+  font-family: 'Fira Sans';
+  font-weight: 400;
+
+ src: url('../Links/desi/FiraSans-Regular.otf')  format('opentype');
+
+}
+
 * {
   box-sizing: border-box;
 }

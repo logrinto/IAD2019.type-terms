@@ -1,4 +1,17 @@
 
+@font-face {
+    font-family: 'Raleway';
+    font-weight: 800;
+    src: url('../Links/dominique/raleway-black-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-weight: 400;
+    src: url('../Links/dominique/raleway-regular-webfont.woff') format('woff');
+}
+
+
 html {
     font-size: 16px;
 }

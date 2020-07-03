@@ -1,9 +1,25 @@
 @font-face {
-    font-family: 'Manrope';
-    src: url('Manrope-Light.woff') format('woff'),
- 		 url('Manrope-Medium.woff') format('woff'),
- 		  url('Manrope-Bold.woff') format('woff');
+  font-family: 'Manrope';
+  font-weight: 300;
+
+/*  src: url('pfad/zu/meinerschrift.woff2')  format('woff2'),
+  url('pfad/zu/meinerschrift.woff')  format('woff'); */
+
+  src: url('../Links/samira/Manrope-Light.woff')  format('woff');
 }
+
+@font-face {
+  font-family: 'Manrope';
+  font-weight: 700;
+  src: url('../Links/samira/Manrope-Bold.woff')  format('woff');
+}
+
+@font-face {
+  font-family: 'Manrope';
+  font-weight: 500;
+  src: url('../Links/samira/Manrope-Medium.woff')  format('woff');
+}
+
 
 *{
 	margin: 0px;
@@ -13,29 +29,31 @@
 body{
 
 	 color: #1c2420;
-	 font-family: 'Manrope-Light';
+   font-family: 'Manrope';
+   font-weight: 500;
 	margin-top: 8em;
 
 }
 
 h1{
 	color: #0A5243;
-	font-family: 'Manrope-Light';
+  font-family: 'Manrope';
+  font-weight: 700;
 	font-size: 5em;
 }
 h2{
 	color: #0A5243;
-	font-family: 'Manrope-Light';
+	font-family: 'Manrope';
 	font-size: 2.2em;
 	margin-top: 1em;
 
 }
 h2.weiss{
 	color: #fff;
-	
+
 }
 h3{
-	font-family: 'Manrope-Light';
+	font-family: 'Manrope';
 	font-size: 1.3em;
 	margin-top: 1em;
 	color: #0A5243;
@@ -43,7 +61,7 @@ h3{
 	}
 
 h4{
-	font-family: 'Manrope-Light';
+
 	font-size: 5em;
 	margin-top: 1em;
 	color: #0A5243;
@@ -51,18 +69,20 @@ h4{
 
 
 h4.medium{
-	font-family: 'Manrope-Medium';
+
+	font-weight: 500;
 
 	}
 h4.bold{
-	font-family: 'Manrope-Bold';
+
+	 font-weight: 700;
 
 	}
 
 p{
 	font-size: 1.3em;
 	color: #505957;
-	
+
 
 
 }
@@ -89,7 +109,7 @@ img{
 
 .content{
 	width: 50%;
-   margin: 1em auto; 
+   margin: 1em auto;
    display:flex;
    align-items:center;
    justify-content:left;
@@ -108,7 +128,7 @@ img{
 
 .tabelle{
 	width: 50%;
-   margin: 1em auto; 
+   margin: 1em auto;
    align-items:center;
    justify-content:left;
    padding-top: 2em;
@@ -131,7 +151,7 @@ img{
 .Beispiela{
 	display: grid;
 	width: 50%;
-	margin: 1em auto; 
+	margin: 1em auto;
 	grid-template-areas:
 	"Regular Bold Kursive";
 
@@ -147,7 +167,7 @@ img{
 .M1{
   grid-column: 4/11;
   grid-row: 1/2;
- 
+
 }
 .M2{
   grid-column: 5/11;
@@ -161,13 +181,13 @@ img{
 .M4{
   grid-column: 7/11;
   grid-row: 3/4;
-  
+
 }
 
 
 .Regular{
 	grid-area: Regular;
-	font-family: 'Manrope-Light';
+	font-family: 'Manrope';
 	font-size: 2.5em;
    text-align: center;
 	/*border: 1px solid #fff;*/
@@ -196,7 +216,7 @@ img{
 }
 
 .transition{
-	font-family: 'Manrope-Light';
+	font-family: 'Manrope';
 	font-size: 2.5em;
 	text-align: center;
 	padding: 2em;
@@ -215,7 +235,7 @@ a {
     line-height: 1.9rem;
     font-size: 1.3rem;
  	color: #505957;
-    font-family: 'Manrope-Light';
+    font-family: 'Manrope';
     text-decoration: none;
 }
 a:hover {
@@ -245,7 +265,7 @@ h4{
 .M1{
   grid-column: 3/11;
   grid-row: 1/2;
- 
+
 }
 .M2{
   grid-column: 4/11;
@@ -291,7 +311,7 @@ h4{
 	font-size: 3em;
 	padding: 1em;
 }
-	
+
 .einleitung{ 
 		color:red;
 	font-size: 1.7em;
@@ -299,7 +319,7 @@ h4{
 
 	p{
 	font-size: 1.1em;
-	}	
+	}
 
 	h2{
 		font-size: 1.8em;
@@ -309,7 +329,7 @@ h4{
 	}
 
 	td, th {
-    
+
     width: 2rem;
 	height: 4rem;
 	}
@@ -323,7 +343,7 @@ h4{
 .M1{
   grid-column: 2/11;
   grid-row: 1/2;
- 
+
 }
 .M2{
   grid-column: 3/11;
@@ -339,13 +359,3 @@ h4{
   grid-row: 3/4;
 	}
 }
-
-
-
-
-
-
-
-
-
-
