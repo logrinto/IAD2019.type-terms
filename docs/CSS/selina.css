@@ -15,24 +15,39 @@ body {
     "header header header header header header header header header header header header";
   grid-template-columns: repeat (12, 1fr);*/
   width: 100vw;
+  margin: 0;
 }
 
 
 header {
-  background: linear-gradient(to bottom right, #F9D39D, #FF7ECC, #64F5FF);
+  background: linear-gradient(to bottom right, #F9D39D, #FF7ECC, #7AD4FF, #FF7ECC, #F9D39D);
+  background-size: 200% 200%;
   height: 60vh;
   width: 100vw;
-  position: relative;
+  animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 p {
   font-size: 1rem;
   letter-spacing: 0.05rem;
   color: black;
-  padding-left: 170px;
+  padding-left: 100px;
   font-weight: lighter;
-  width: 800px;
+  width: 700px;
   margin: auto;
+  line-height: 170%;
 }
 
 
@@ -51,12 +66,13 @@ h6 {
   font-size: 1rem;
   letter-spacing: 0.05rem;
   color: black;
-  padding-left: 170px;
+  padding-left: 100px;
   font-weight: bolder;
   padding-top: 30px;
   padding-bottom: 10px;
-  width: 800px;
+  width: 700px;
   margin: auto;
+  line-height: 170%;
 }
 
 
@@ -68,6 +84,7 @@ h6 {
   color: white;
   font-weight: lighter;
   font-size: 1.3em;
+  margin: 0;
 }
 
 .name a {
@@ -145,7 +162,7 @@ article {
 
 
 article:hover {
-    background-image: linear-gradient(to bottom right, rgba(249,211,157,1), rgba(255,126,204,1), rgba(100,245,255,1));
+    background-image: linear-gradient(to bottom right, rgba(249,211,157,0.5), rgba(255,126,204,0.5), rgba(100,245,255,0.5));
 }
 
 
@@ -234,6 +251,7 @@ ol {
   color: black;
   padding-bottom: 150px;
   text-decoration: none;
+  line-height: 170%;
 }
 a {
   color: #906CFF;

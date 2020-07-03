@@ -39,7 +39,7 @@ code{
 .raster {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: 800px 600px 650px 300px 1fr 1fr 800px 300px 100px 1000px 300px 100px 800px 300px 100px 1200px;
+  grid-template-rows: 800px 600px 650px 300px 1fr 1fr 800px 300px 100px 1000px 300px 100px 800px 300px 100px 600px 300px 1200px 600px;
   grid-gap: 20px;
   margin-left: 4%;
   margin-right: 4%;
@@ -189,6 +189,8 @@ margin-top: 40px;
 
 .quellen {
   grid-area: quellen;
+  align-self: end;
+
 
 }
 
@@ -219,7 +221,7 @@ text-align: end;
   .raster {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: 400px 600px 500px 1fr 1fr 800px 900px 100px 1200px 150px 60px 500px 300px 60px 1100px;
+    grid-template-rows: 400px 400px 500px 200px 1fr 800px 600px 100px 1200px 150px 60px 500px 300px 60px 1100px 300px;
     grid-gap: 20px;
     margin-left: 4%;
     margin-right: 4%;
@@ -242,7 +244,7 @@ text-align: end;
     "untersstrich untersstrich untersstrich untersstrich untersstrich untersstrich"
     ". . untersstrichtext untersstrichtext untersstrichtext untersstrichtext"
     ". . . . . ."
-    ". schrift schrift schrift . ."
+    ". schrift schrift schrift schrift schrift "
     "quellen quellen quellen quellen quellen quellen"
     "copyright copyright copyright . . ."
 
@@ -252,7 +254,7 @@ text-align: end;
     .titel {
     grid-area: titel;
     grid-template-rows: 300px;
-    font-size: 400%;
+    font-size: 500%;
     line-height: 1.06em;
     letter-spacing: 0.02em;
     font-weight: 700;

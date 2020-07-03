@@ -404,10 +404,11 @@ p.desription {
   background-color: white;
   mix-blend-mode: difference;
   box-sizing: border-box;
-  transition: 0.1s;
-  transform: translate(-50%, -50%);
   border-radius: 50%;
   pointer-events: none;
+  transform: translate(-5000px, -5000px);
+  left: -10rem;
+  top: -10rem;
 }
 
 #oval {
@@ -421,9 +422,17 @@ p.desription {
 }
 
 .svgWrap {
+  position: relative;
   height: 15rem;
   width: 100%;
   background-color: #f4f3f0;
+}
+
+svg {
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  margin: auto;
 }
 
 .whiteWrap {

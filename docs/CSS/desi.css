@@ -65,7 +65,7 @@ font-family: IBM Plex Sans;
 font-style: normal;
 font-weight: bold;
 font-size: 24px;
-line-height: 120%;
+line-height: 145%;
 letter-spacing: 0.08em;
 color: white;
 padding: 6%;
@@ -73,7 +73,7 @@ width: 78%;
 }
 @media screen and (max-width: 50em) {
   p{
-    font-size: 15px;}
+    font-size: 17px;}
   }
 
 .tabelleGS{
@@ -184,6 +184,31 @@ display: inline-grid;
     grid-area: 16/1/17/13;
 }}
 
+.Quellen{
+  display: inline-grid;
+  justify-items: center;
+  align-items: end;
+  grid-area: 16/1/17/4;
+}
+@media screen and (max-width: 50em) {
+  .Quellen{
+    grid-area: 17/1/18/13;
+}}
+
+a {
+ color: #EB5757;
+ font-size: 15px;
+
+ /* font-family: 'Open Sans', sans-serif;
+ font-size: 17px;
+ font-weight: 300;
+ line-height: 2em;
+ letter-spacing: 0.05em;
+ text-decoration-line: none;
+ transition: 0.2s ease-in; */
+}
+
+
 .sk{
   grid-area: 3/1/4/7;
   display: inline-grid;
@@ -249,11 +274,11 @@ align-items: center;
     grid-area: 7/10/8/13;
 }}
 .IconLineal{
-  height:80%;
+  width:50%;
 }
 @media screen and (max-width: 50em) {
   .IconLineal{
-  height:50%;
+  width: 110%;
 }}
 
 .Beispiel1{
