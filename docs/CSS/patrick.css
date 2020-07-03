@@ -12,6 +12,9 @@
     background-color: #f8dd74;
   }
 
+  body {
+   hyphens: auto;
+  }
 
   .spalte {
     max-width: 50rem;
@@ -53,10 +56,11 @@
 }
 
 .subtitle {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-family: 'Lora', sans-serif;
   font-weight:700;
   color: #474545;
+  line-height: 1.6;
 }
 
 .bildlegende {
