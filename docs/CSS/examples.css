@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Spectral&family=Spectral+SC:wght@700&display=swap');
 
 /* -- font nina -- */
-@import url("https://fonts.googleapis.com/css?family=XXXX:400,700");
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap');
 
 /* -- font sam -- */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap');
@@ -30,7 +30,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
 
 /* -- font selina -- */
-@import url("https://fonts.googleapis.com/css?family=XXXX:400,700");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 /* -- font flavia -- */
 @import url("https://fonts.googleapis.com/css?family=XXXX:400,700");
@@ -178,12 +178,14 @@
 
 /* -- start selina -- */
 .term--selina {
-  font-family: "XXX", sans-serif;
+  font-family: 'Playfair Display', serif;
   font-weight: 400;
+  letter-spacing: 0.05rem;
 }
 
 .term--selina .term__title {
   font-weight: 700;
+  letter-spacing: 0.01rem;
 }
 /* -- end selina -- */
 
