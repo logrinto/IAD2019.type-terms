@@ -20,10 +20,23 @@ body {
 
 
 header {
-  background: linear-gradient(to bottom right, #F9D39D, #FF7ECC, #64F5FF);
+  background: linear-gradient(to bottom right, #F9D39D, #FF7ECC, #F9D39D, #64F5FF, #FF7ECC, #64F5FF, #F9D39D);
+  background-size: 200% 200%;
   height: 60vh;
   width: 100vw;
-  position: relative;
+  animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 p {
